@@ -28,3 +28,24 @@ SIMILARITY_THRESHOLD = 0.3
 
 # ChromaDB
 COLLECTION_NAME = "sba_lending_docs"
+
+# Knowledge Graph
+KG_DATA_DIR = PROJECT_ROOT / "kg_data"
+KG_FILE = KG_DATA_DIR / "sba_knowledge_graph.json"
+ENTITY_TYPES = [
+    "LoanProgram",
+    "Requirement",
+    "LenderType",
+    "FinancialTerm",
+    "Regulation",
+    "Amount",
+]
+
+ENTITY_COLORS = {
+    "LoanProgram": "#4A90D9",
+    "Requirement": "#E8943A",
+    "LenderType": "#6BBF6B",
+    "FinancialTerm": "#D94A6B",
+    "Regulation": "#9B59B6",
+    "Amount": "#1ABC9C",
+}

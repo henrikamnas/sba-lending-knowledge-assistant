@@ -1,0 +1,3173 @@
+{
+  "nodes": [
+    {
+      "id": "sba_7a",
+      "label": "SBA 7(a)",
+      "type": "LoanProgram",
+      "definition": "A loan program offered by the Small Business Administration to assist small businesses with various financing needs."
+    },
+    {
+      "id": "borrower_faq",
+      "label": "Borrower FAQ",
+      "type": "Requirement",
+      "definition": "Frequently asked questions that provide guidance to borrowers regarding the SBA 7(a) loan program."
+    },
+    {
+      "id": "sba_express",
+      "label": "SBA Express",
+      "type": "LoanProgram",
+      "definition": "A streamlined loan program that allows approved lenders to make loans of up to $500,000 with a 36-hour SBA turnaround."
+    },
+    {
+      "id": "community_advantage",
+      "label": "Community Advantage",
+      "type": "LoanProgram",
+      "definition": "A pilot program that allows mission-focused lenders to make SBA 7(a) loans of up to $350,000 targeting underserved communities."
+    },
+    {
+      "id": "for_profit_business",
+      "label": "For-Profit Business",
+      "type": "Requirement",
+      "definition": "The borrower must operate a for-profit small business in the United States."
+    },
+    {
+      "id": "sba_size_standards",
+      "label": "SBA Size Standards",
+      "type": "Requirement",
+      "definition": "The criteria that define a small business according to the SBA, which vary by industry based on the number of employees or average annual receipts."
+    },
+    {
+      "id": "ability_to_repay",
+      "label": "Ability to Repay",
+      "type": "Requirement",
+      "definition": "The borrower must demonstrate the ability to repay the loan."
+    },
+    {
+      "id": "sound_business_purpose",
+      "label": "Sound Business Purpose",
+      "type": "Requirement",
+      "definition": "The borrower must have a sound business purpose for the loan."
+    },
+    {
+      "id": "credit_elsewhere",
+      "label": "Credit Elsewhere",
+      "type": "Requirement",
+      "definition": "The borrower must show that they cannot obtain credit elsewhere on reasonable terms."
+    },
+    {
+      "id": "federal_debt",
+      "label": "No Federal Debt Delinquency",
+      "type": "Requirement",
+      "definition": "The borrower must not be delinquent on any federal debt."
+    },
+    {
+      "id": "loan_guarantee",
+      "label": "Loan Guarantee",
+      "type": "FinancialTerm",
+      "definition": "The SBA guarantees a portion of the loan, reducing lender risk."
+    },
+    {
+      "id": "interest_rate_cap",
+      "label": "Interest Rate Cap",
+      "type": "Regulation",
+      "definition": "Interest rates for SBA loans are capped by SBA regulations."
+    },
+    {
+      "id": "repayment_term",
+      "label": "Repayment Term",
+      "type": "FinancialTerm",
+      "definition": "The loan can have longer repayment terms, generally up to 25 years for real estate."
+    },
+    {
+      "id": "down_payment",
+      "label": "Down Payment Requirement",
+      "type": "Requirement",
+      "definition": "The SBA may have lower down payment requirements for borrowers."
+    },
+    {
+      "id": "max_loan_amount",
+      "label": "Maximum Loan Amount",
+      "type": "Amount",
+      "definition": "The maximum loan amount for a standard SBA 7(a) loan is $5,000,000."
+    },
+    {
+      "id": "max_express_loan_amount",
+      "label": "Maximum SBA Express Loan Amount",
+      "type": "Amount",
+      "definition": "The maximum loan amount for an SBA Express loan is $500,000."
+    },
+    {
+      "id": "max_community_advantage_amount",
+      "label": "Maximum Community Advantage Loan Amount",
+      "type": "Amount",
+      "definition": "The maximum loan amount for a Community Advantage loan is $350,000."
+    },
+    {
+      "id": "sba_approved_lender",
+      "label": "SBA-approved lender",
+      "type": "LenderType",
+      "definition": "A lender that is approved by the Small Business Administration to offer SBA loans."
+    },
+    {
+      "id": "business_plan",
+      "label": "Business Plan",
+      "type": "Requirement",
+      "definition": "A document outlining the business strategy, required for startups or significant changes."
+    },
+    {
+      "id": "financial_documents",
+      "label": "Financial Documents",
+      "type": "Requirement",
+      "definition": "Documents that provide an overview of the financial status of a business, including income statements, balance sheets, and cash flow statements."
+    },
+    {
+      "id": "sba_lender_match_tool",
+      "label": "SBA Lender Match Tool",
+      "type": "LoanProgram",
+      "definition": "A tool provided by the SBA to help borrowers find approved lenders."
+    },
+    {
+      "id": "sba_loan_program",
+      "label": "SBA Loan Program",
+      "type": "LoanProgram",
+      "definition": "A program offered by the Small Business Administration that may require personal guarantees from business owners."
+    },
+    {
+      "id": "application_documentation",
+      "label": "Application Documentation",
+      "type": "Requirement",
+      "definition": "Documents required to be submitted with the loan application."
+    },
+    {
+      "id": "lender_evaluation",
+      "label": "Lender Evaluation",
+      "type": "Requirement",
+      "definition": "The process by which a lender assesses the borrower's application."
+    },
+    {
+      "id": "sba_approval",
+      "label": "SBA Approval",
+      "type": "Requirement",
+      "definition": "Approval required from the SBA for certain actions, such as changes in ownership or major loan modifications."
+    },
+    {
+      "id": "plp_loan",
+      "label": "Preferred Lenders Program (PLP) Loan",
+      "type": "LoanProgram",
+      "definition": "A loan program through preferred lenders that offers expedited processing."
+    },
+    {
+      "id": "standard_7a",
+      "label": "Standard 7(a) Loan",
+      "type": "LoanProgram",
+      "definition": "A traditional SBA loan program with standard processing times."
+    },
+    {
+      "id": "credit_score_requirement",
+      "label": "Credit Score Requirement",
+      "type": "Requirement",
+      "definition": "The requirement that lenders may have their own standards for credit scores, affecting loan approval."
+    },
+    {
+      "id": "minimum_credit_score",
+      "label": "Minimum Credit Score",
+      "type": "Requirement",
+      "definition": "The minimum credit score used by the SBA's pre-screening tool (FICO SBSS)."
+    },
+    {
+      "id": "personal_financial_statements",
+      "label": "Personal Financial Statements",
+      "type": "Requirement",
+      "definition": "Financial statements required from all owners with 20% or more ownership."
+    },
+    {
+      "id": "business_financial_statements",
+      "label": "Business Financial Statements",
+      "type": "Requirement",
+      "definition": "Financial documents including tax returns, profit & loss statements, and balance sheets."
+    },
+    {
+      "id": "schedule_of_business_debt",
+      "label": "Schedule of Business Debt",
+      "type": "Requirement",
+      "definition": "A document listing all current business debts."
+    },
+    {
+      "id": "resumes_for_principals",
+      "label": "Resumes for Principals",
+      "type": "Requirement",
+      "definition": "Resumes required for each principal involved in the business."
+    },
+    {
+      "id": "business_licenses_permits",
+      "label": "Business Licenses and Permits",
+      "type": "Requirement",
+      "definition": "Required licenses and permits for operating the business."
+    },
+    {
+      "id": "lease_agreements",
+      "label": "Lease Agreements",
+      "type": "Requirement",
+      "definition": "Agreements for leasing property, if applicable."
+    },
+    {
+      "id": "articles_of_incorporation",
+      "label": "Articles of Incorporation",
+      "type": "Requirement",
+      "definition": "Legal documents establishing the existence of a corporation."
+    },
+    {
+      "id": "loan_processing_time",
+      "label": "Loan Processing Time",
+      "type": "FinancialTerm",
+      "definition": "The duration it takes to process a loan application."
+    },
+    {
+      "id": "preferred_lender_processing_time",
+      "label": "Preferred Lender Processing Time",
+      "type": "FinancialTerm",
+      "definition": "The time taken for loan processing through preferred lenders."
+    },
+    {
+      "id": "standard_lender_processing_time",
+      "label": "Standard Lender Processing Time",
+      "type": "FinancialTerm",
+      "definition": "The time taken for loan processing through standard lenders."
+    },
+    {
+      "id": "total_process_time",
+      "label": "Total Process Time",
+      "type": "FinancialTerm",
+      "definition": "The total time from application to funding."
+    },
+    {
+      "id": "fico_sbss",
+      "label": "FICO SBSS",
+      "type": "Regulation",
+      "definition": "The credit scoring model used by the SBA for pre-screening loan applications."
+    },
+    {
+      "id": "credit_score_680",
+      "label": "Credit Score of 680",
+      "type": "FinancialTerm",
+      "definition": "The preferred personal credit score for most lenders."
+    },
+    {
+      "id": "minimum_fico_sbss_score",
+      "label": "Minimum FICO SBSS Score",
+      "type": "FinancialTerm",
+      "definition": "The minimum score of 155 out of 300 used by the SBA's credit scoring model."
+    },
+    {
+      "id": "interest_rate",
+      "label": "Interest Rate",
+      "type": "FinancialTerm",
+      "definition": "The percentage of a loan amount that a lender charges as interest to the borrower."
+    },
+    {
+      "id": "maximum_interest_rate_350k",
+      "label": "Maximum Interest Rate for Loans Over $350,000",
+      "type": "FinancialTerm",
+      "definition": "The maximum interest rate for loans over $350,000, which is prime plus 3%."
+    },
+    {
+      "id": "maximum_interest_rate_50k",
+      "label": "Maximum Interest Rate for Loans Under $50,000",
+      "type": "FinancialTerm",
+      "definition": "The maximum interest rate for loans under $50,000, which can be up to prime plus 6.5%."
+    },
+    {
+      "id": "sba_guaranty_fee",
+      "label": "SBA Guaranty Fee",
+      "type": "Amount",
+      "definition": "A fee that ranges from 2% to 3.5% of the guaranteed portion of the loan, depending on the loan amount."
+    },
+    {
+      "id": "annual_service_fee",
+      "label": "Annual Service Fee",
+      "type": "Amount",
+      "definition": "A fee of 0.55% of the outstanding balance of SBA's guaranteed portion of each loan."
+    },
+    {
+      "id": "fee_reduction_programs",
+      "label": "Fee Reduction Programs",
+      "type": "Requirement",
+      "definition": "Programs offered by the SBA that provide fee relief for certain borrowers, such as veterans and military spouses."
+    },
+    {
+      "id": "closing_costs",
+      "label": "Closing Costs",
+      "type": "Amount",
+      "definition": "Reasonable costs charged by lenders for closing a loan, which may vary."
+    },
+    {
+      "id": "prohibited_fees",
+      "label": "Prohibited Fees",
+      "type": "Requirement",
+      "definition": "Certain fees that the SBA prohibits, including bonus points, brokerage fees, and other unreasonable charges."
+    },
+    {
+      "id": "working_capital",
+      "label": "Working Capital",
+      "type": "LoanProgram",
+      "definition": "Funds used for the day-to-day operations of a business."
+    },
+    {
+      "id": "equipment",
+      "label": "Equipment",
+      "type": "LoanProgram",
+      "definition": "Funds used to purchase equipment for business operations."
+    },
+    {
+      "id": "real_estate",
+      "label": "Real Estate",
+      "type": "LoanProgram",
+      "definition": "Funds used to purchase real estate for business purposes."
+    },
+    {
+      "id": "business_acquisition",
+      "label": "Business Acquisition",
+      "type": "LoanProgram",
+      "definition": "Funds used to acquire an existing business."
+    },
+    {
+      "id": "repayment_terms",
+      "label": "Repayment Terms",
+      "type": "Requirement",
+      "definition": "Conditions under which a loan must be repaid."
+    },
+    {
+      "id": "prepayment_penalty",
+      "label": "Prepayment Penalty",
+      "type": "Requirement",
+      "definition": "A fee charged for paying off a loan early."
+    },
+    {
+      "id": "default_procedure",
+      "label": "Default Procedure",
+      "type": "Requirement",
+      "definition": "The process followed when a borrower defaults on a loan."
+    },
+    {
+      "id": "loan_maturity_15_years",
+      "label": "Loan Maturity 15 Years or More",
+      "type": "FinancialTerm",
+      "definition": "Loans with a maturity of 15 years or more."
+    },
+    {
+      "id": "loan_maturity_less_15_years",
+      "label": "Loan Maturity Less Than 15 Years",
+      "type": "FinancialTerm",
+      "definition": "Loans with a maturity of less than 15 years."
+    },
+    {
+      "id": "year_1_penalty",
+      "label": "Year 1 Prepayment Penalty",
+      "type": "Amount",
+      "definition": "5% penalty on the amount prepaid during the first year."
+    },
+    {
+      "id": "year_2_penalty",
+      "label": "Year 2 Prepayment Penalty",
+      "type": "Amount",
+      "definition": "3% penalty on the amount prepaid during the second year."
+    },
+    {
+      "id": "year_3_penalty",
+      "label": "Year 3 Prepayment Penalty",
+      "type": "Amount",
+      "definition": "1% penalty on the amount prepaid during the third year."
+    },
+    {
+      "id": "no_penalty_after_year_3",
+      "label": "No Penalty After Year 3",
+      "type": "Requirement",
+      "definition": "No prepayment penalty after the third year."
+    },
+    {
+      "id": "credit_score_impact",
+      "label": "Credit Score Impact",
+      "type": "Requirement",
+      "definition": "The effect of defaulting on a loan on the borrower's credit score."
+    },
+    {
+      "id": "forgiveness_eligibility",
+      "label": "Forgiveness Eligibility",
+      "type": "Requirement",
+      "definition": "Conditions under which a loan may be forgiven."
+    },
+    {
+      "id": "export_express",
+      "label": "Export Express",
+      "type": "LoanProgram",
+      "definition": "A loan program providing up to $500,000 to small businesses for export activities, with varying SBA guarantees."
+    },
+    {
+      "id": "microloans",
+      "label": "SBA Microloans",
+      "type": "LoanProgram",
+      "definition": "Loans of up to $50,000 through intermediary lenders, suitable for startups."
+    },
+    {
+      "id": "lender_type_cdfi",
+      "label": "Community Development Financial Institutions (CDFIs)",
+      "type": "LenderType",
+      "definition": "Mission-focused lenders that provide loans and support to underserved communities."
+    },
+    {
+      "id": "amount_500000",
+      "label": "$500,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for SBA Express and Export Express programs."
+    },
+    {
+      "id": "amount_350000",
+      "label": "$350,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for the Community Advantage program."
+    },
+    {
+      "id": "amount_50000",
+      "label": "$50,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for SBA Microloans."
+    },
+    {
+      "id": "guarantee_50",
+      "label": "50% Guarantee",
+      "type": "FinancialTerm",
+      "definition": "The percentage of loan amount guaranteed by the SBA for SBA Express loans."
+    },
+    {
+      "id": "guarantee_90",
+      "label": "90% Guarantee",
+      "type": "FinancialTerm",
+      "definition": "The percentage of loan amount guaranteed by the SBA for Export Express loans of $350,000 or less."
+    },
+    {
+      "id": "guarantee_75",
+      "label": "75% Guarantee",
+      "type": "FinancialTerm",
+      "definition": "The percentage of loan amount guaranteed by the SBA for Export Express loans over $350,000."
+    },
+    {
+      "id": "requirement_strong_business_plan",
+      "label": "Strong Business Plan",
+      "type": "Requirement",
+      "definition": "A requirement for startups to obtain SBA loans."
+    },
+    {
+      "id": "requirement_industry_experience",
+      "label": "Relevant Industry Experience",
+      "type": "Requirement",
+      "definition": "A requirement for startups to obtain SBA loans."
+    },
+    {
+      "id": "requirement_good_credit",
+      "label": "Good Personal Credit",
+      "type": "Requirement",
+      "definition": "A requirement for startups to obtain SBA loans."
+    },
+    {
+      "id": "requirement_collateral",
+      "label": "Collateral or Personal Equity Contribution",
+      "type": "Requirement",
+      "definition": "A requirement for startups to obtain SBA loans."
+    },
+    {
+      "id": "sba_microloans",
+      "label": "SBA Microloans",
+      "type": "LoanProgram",
+      "definition": "A loan program that offers smaller loan amounts with potentially more flexible requirements for small businesses."
+    },
+    {
+      "id": "collateral_requirement",
+      "label": "Collateral Requirement",
+      "type": "Requirement",
+      "definition": "The requirement for lenders to take available collateral for loans, though not solely a reason for denial."
+    },
+    {
+      "id": "loan_amount_25000",
+      "label": "Loan Amount Up to $25,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for which no collateral is required."
+    },
+    {
+      "id": "credit_score_650",
+      "label": "Credit Score Below 650",
+      "type": "Requirement",
+      "definition": "A condition where borrowers may have difficulty finding an approved lender willing to make the loan."
+    },
+    {
+      "id": "approved_lender",
+      "label": "Approved Lender",
+      "type": "LenderType",
+      "definition": "Banks, credit unions, or other institutions approved to lend SBA-backed loans."
+    },
+    {
+      "id": "sba_regulation",
+      "label": "SBA Regulation",
+      "type": "Regulation",
+      "definition": "The set of rules established by the SBA that govern the lending process."
+    },
+    {
+      "id": "public_program_guide",
+      "label": "Public Program Guide",
+      "type": "Regulation",
+      "definition": "A guide published by the U.S. Small Business Administration outlining the details of various loan programs."
+    },
+    {
+      "id": "guaranty_percentage",
+      "label": "Guaranty Percentage",
+      "type": "Requirement",
+      "definition": "The percentage of the loan that the SBA guarantees."
+    },
+    {
+      "id": "loan_amount",
+      "label": "Loan Amount",
+      "type": "Requirement",
+      "definition": "The amount of money that can be borrowed under the SBA 7(a) Loan Program."
+    },
+    {
+      "id": "partnering_lenders",
+      "label": "Partnering Lenders",
+      "type": "LenderType",
+      "definition": "Lenders that partner with the SBA to provide loans under the 7(a) Loan Program."
+    },
+    {
+      "id": "community_development_organizations",
+      "label": "Community Development Organizations",
+      "type": "LenderType",
+      "definition": "Organizations that provide loans under the SBA 7(a) Loan Program."
+    },
+    {
+      "id": "micro_lending_institutions",
+      "label": "Micro-Lending Institutions",
+      "type": "LenderType",
+      "definition": "Institutions that provide small loans under the SBA 7(a) Loan Program."
+    },
+    {
+      "id": "risk_elimination",
+      "label": "Risk Elimination",
+      "type": "Requirement",
+      "definition": "The reduction of risk to lending partners due to SBA loan guarantees."
+    },
+    {
+      "id": "eligibility_requirements",
+      "label": "Eligibility Requirements",
+      "type": "Requirement",
+      "definition": "Criteria that businesses must meet to qualify for the SBA 7(a) loan."
+    },
+    {
+      "id": "for_profit_requirement",
+      "label": "For-Profit Requirement",
+      "type": "Requirement",
+      "definition": "The business must be a for-profit entity operating in the United States or its territories."
+    },
+    {
+      "id": "small_business",
+      "label": "Small Business",
+      "type": "LoanProgram",
+      "definition": "A business that meets the SBA's size standards for eligibility in various loan programs."
+    },
+    {
+      "id": "manufacturing_size_limit",
+      "label": "Manufacturing Size Limit",
+      "type": "Requirement",
+      "definition": "Manufacturing businesses can have up to 500 employees to qualify as a small business."
+    },
+    {
+      "id": "service_business_receipts_limit",
+      "label": "Service Business Receipts Limit",
+      "type": "Requirement",
+      "definition": "Service businesses can have average annual receipts up to $8 million to qualify as a small business."
+    },
+    {
+      "id": "naics_code_variation",
+      "label": "NAICS Code Variation",
+      "type": "Requirement",
+      "definition": "The thresholds for small business size standards that vary by specific NAICS code."
+    },
+    {
+      "id": "business_engagement_requirement",
+      "label": "Business Engagement Requirement",
+      "type": "Requirement",
+      "definition": "The requirement for a business to be engaged in or propose to do business in the United States or its territories."
+    },
+    {
+      "id": "reasonable_invested_equity",
+      "label": "Reasonable Invested Equity",
+      "type": "Requirement",
+      "definition": "The business owner must have invested their own time and/or money into the business, demonstrating a personal stake in its success."
+    },
+    {
+      "id": "alternative_financial_resources_requirement",
+      "label": "Use Alternative Financial Resources",
+      "type": "Requirement",
+      "definition": "The requirement for borrowers to utilize personal assets and other financial resources before seeking SBA assistance."
+    },
+    {
+      "id": "non_federal_credit_requirement",
+      "label": "Demonstrate Inability to Obtain Non-Federal Credit",
+      "type": "Requirement",
+      "definition": "The requirement for borrowers to show they cannot obtain credit on reasonable terms from non-Federal sources."
+    },
+    {
+      "id": "demonstrate_need",
+      "label": "Demonstrate Need for Loan Proceeds",
+      "type": "Requirement",
+      "definition": "The requirement for a business to show a valid purpose for the loan funds."
+    },
+    {
+      "id": "delinquent_debt",
+      "label": "Delinquent on Existing Debt Obligations",
+      "type": "Requirement",
+      "definition": "The requirement that the borrower must not be delinquent on any existing debt obligations to the U.S. government."
+    },
+    {
+      "id": "federal_debts",
+      "label": "Federal Debts",
+      "type": "Requirement",
+      "definition": "Includes student loans, prior SBA loans, and other federal debts that must be current."
+    },
+    {
+      "id": "ineligible_businesses",
+      "label": "Ineligible Businesses",
+      "type": "Requirement",
+      "definition": "Types of businesses that are generally not eligible for SBA 7(a) loans."
+    },
+    {
+      "id": "illegal_activities",
+      "label": "Illegal Activities",
+      "type": "Requirement",
+      "definition": "Businesses engaged in illegal activities are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "discriminatory_practices",
+      "label": "Discriminatory Practices",
+      "type": "Requirement",
+      "definition": "Businesses that restrict patronage based on race, color, religion, or national origin are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "gambling_enterprises",
+      "label": "Gambling Enterprises",
+      "type": "Requirement",
+      "definition": "Gambling enterprises are generally ineligible for SBA 7(a) loans, except in certain states where gambling is legal."
+    },
+    {
+      "id": "lending_businesses",
+      "label": "Lending Businesses",
+      "type": "Requirement",
+      "definition": "Businesses primarily engaged in lending, such as banks and finance companies, are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "speculative_activities",
+      "label": "Speculative Activities",
+      "type": "Requirement",
+      "definition": "Businesses primarily engaged in speculative activities are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "pyramid_schemes",
+      "label": "Pyramid Sale Distribution Plans",
+      "type": "Requirement",
+      "definition": "Pyramid sale distribution plans are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "religious_promotion",
+      "label": "Promotion of Religion",
+      "type": "Requirement",
+      "definition": "Businesses engaged in the promotion of religion are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "government_entities",
+      "label": "Government-Owned Entities",
+      "type": "Requirement",
+      "definition": "Government-owned entities, except Native American tribes, are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "religious_instruction",
+      "label": "Religious Instruction",
+      "type": "Requirement",
+      "definition": "Businesses principally engaged in teaching or instructing religion are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "private_clubs",
+      "label": "Private Clubs",
+      "type": "Requirement",
+      "definition": "Private clubs that limit membership are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "life_insurance_companies",
+      "label": "Life Insurance Companies",
+      "type": "Requirement",
+      "definition": "Life insurance companies are ineligible for SBA 7(a) loans."
+    },
+    {
+      "id": "standard_7a_loan",
+      "label": "Standard 7(a) Loan",
+      "type": "LoanProgram",
+      "definition": "A loan program that provides financial assistance to small businesses."
+    },
+    {
+      "id": "export_working_capital",
+      "label": "Export Working Capital",
+      "type": "LoanProgram",
+      "definition": "A loan program that provides working capital for exporters."
+    },
+    {
+      "id": "international_trade",
+      "label": "International Trade",
+      "type": "LoanProgram",
+      "definition": "A loan program that supports small businesses involved in international trade."
+    },
+    {
+      "id": "loan_amount_5000000",
+      "label": "$5,000,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for certain SBA loan programs."
+    },
+    {
+      "id": "loan_amount_500000",
+      "label": "$500,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for SBA Express and Export Express."
+    },
+    {
+      "id": "loan_amount_350000",
+      "label": "$350,000",
+      "type": "Amount",
+      "definition": "Loans that require adherence to established collateral policies."
+    },
+    {
+      "id": "loan_amount_150000",
+      "label": "$150,000",
+      "type": "Amount",
+      "definition": "A threshold amount for determining SBA guaranty percentages."
+    },
+    {
+      "id": "guaranty_percentage_85",
+      "label": "85% Guaranty",
+      "type": "FinancialTerm",
+      "definition": "The percentage of the loan amount that is guaranteed by the SBA for loans of $150,000 or less."
+    },
+    {
+      "id": "guaranty_percentage_75",
+      "label": "75% Guaranty",
+      "type": "FinancialTerm",
+      "definition": "The percentage of the loan amount that is guaranteed by the SBA for loans greater than $150,000."
+    },
+    {
+      "id": "guaranty_percentage_50",
+      "label": "50% Guaranty",
+      "type": "FinancialTerm",
+      "definition": "The percentage of the loan amount that is guaranteed by the SBA for SBA Express loans."
+    },
+    {
+      "id": "maturity_term_10_years",
+      "label": "10 Years",
+      "type": "FinancialTerm",
+      "definition": "The general maturity term for working capital and inventory loans."
+    },
+    {
+      "id": "maturity_term_25_years",
+      "label": "25 Years",
+      "type": "FinancialTerm",
+      "definition": "The maximum maturity term for real estate loans."
+    },
+    {
+      "id": "maturity_term_mixed_use",
+      "label": "Mixed-Use Maturity",
+      "type": "FinancialTerm",
+      "definition": "A blended maturity term based on the use of proceeds for mixed-use loans."
+    },
+    {
+      "id": "fixed_rate_50k",
+      "label": "Fixed Rate Loans ($50,000 or less)",
+      "type": "FinancialTerm",
+      "definition": "Loans of $50,000 or less with a fixed interest rate of Prime rate plus 6.5%."
+    },
+    {
+      "id": "variable_rate_50k",
+      "label": "Variable Rate Loans ($50,000 or less)",
+      "type": "FinancialTerm",
+      "definition": "Loans of $50,000 or less with a variable interest rate of Prime rate plus 6.5%."
+    },
+    {
+      "id": "fixed_rate_50k_250k",
+      "label": "Fixed Rate Loans ($50,001 - $250,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans between $50,001 and $250,000 with a fixed interest rate of Prime rate plus 6.0%."
+    },
+    {
+      "id": "variable_rate_50k_250k",
+      "label": "Variable Rate Loans ($50,001 - $250,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans between $50,001 and $250,000 with a variable interest rate of Prime rate plus 6.0%."
+    },
+    {
+      "id": "fixed_rate_250k_350k",
+      "label": "Fixed Rate Loans ($250,001 - $350,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans between $250,001 and $350,000 with a fixed interest rate of Prime rate plus 4.5%."
+    },
+    {
+      "id": "variable_rate_250k_350k",
+      "label": "Variable Rate Loans ($250,001 - $350,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans between $250,001 and $350,000 with a variable interest rate of Prime rate plus 4.5%."
+    },
+    {
+      "id": "fixed_rate_above_350k",
+      "label": "Fixed Rate Loans (greater than $350,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans greater than $350,000 with a fixed interest rate of Prime rate plus 3.0%."
+    },
+    {
+      "id": "variable_rate_above_350k",
+      "label": "Variable Rate Loans (greater than $350,000)",
+      "type": "FinancialTerm",
+      "definition": "Loans greater than $350,000 with a variable interest rate of Prime rate plus 3.0%."
+    },
+    {
+      "id": "amount_50k",
+      "label": "$50,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for specific interest rate terms."
+    },
+    {
+      "id": "amount_250k",
+      "label": "$250,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for specific interest rate terms."
+    },
+    {
+      "id": "amount_350k",
+      "label": "$350,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount for specific interest rate terms."
+    },
+    {
+      "id": "amount_above_350k",
+      "label": "Greater than $350,000",
+      "type": "Amount",
+      "definition": "The loan amount category for loans exceeding $350,000."
+    },
+    {
+      "id": "sba_guaranty_fees",
+      "label": "SBA Guaranty Fees",
+      "type": "LoanProgram",
+      "definition": "Fees paid by lenders to the SBA for each loan approved, typically passed on to the borrower."
+    },
+    {
+      "id": "loan_amount_150k_or_less",
+      "label": "Loans of $150,000 or less",
+      "type": "Amount",
+      "definition": "Loan amount category for which a 2.0% fee is applied."
+    },
+    {
+      "id": "loan_amount_150k_to_700k",
+      "label": "Loans of $150,001 to $700,000",
+      "type": "Amount",
+      "definition": "Loan amount category for which a 3.0% fee is applied."
+    },
+    {
+      "id": "loan_amount_700k_to_5m",
+      "label": "Loans of $700,001 to $5,000,000",
+      "type": "Amount",
+      "definition": "Loan amount category for which a 3.5% fee plus an additional 0.25% fee is applied."
+    },
+    {
+      "id": "guaranteed_portion_fee",
+      "label": "Guaranteed Portion Fee",
+      "type": "FinancialTerm",
+      "definition": "The fee structure based on the guaranteed portion of the loan."
+    },
+    {
+      "id": "fee_2_percent",
+      "label": "2.0% Fee",
+      "type": "FinancialTerm",
+      "definition": "Fee percentage applied to loans of $150,000 or less."
+    },
+    {
+      "id": "fee_3_percent",
+      "label": "3.0% Fee",
+      "type": "FinancialTerm",
+      "definition": "Fee percentage applied to loans between $150,001 and $700,000."
+    },
+    {
+      "id": "fee_3_5_percent_plus_0_25_percent",
+      "label": "3.5% Fee plus 0.25%",
+      "type": "FinancialTerm",
+      "definition": "Fee structure for loans between $700,001 and $5,000,000."
+    },
+    {
+      "id": "annual_service_fee_percentage",
+      "label": "0.55% Annual Service Fee",
+      "type": "FinancialTerm",
+      "definition": "Percentage of the outstanding balance charged as an annual service fee."
+    },
+    {
+      "id": "machinery_equipment",
+      "label": "Machinery and Equipment",
+      "type": "Requirement",
+      "definition": "Funds allocated for purchasing machinery and equipment."
+    },
+    {
+      "id": "furniture_fixtures",
+      "label": "Furniture and Fixtures",
+      "type": "Requirement",
+      "definition": "Funds used for acquiring furniture and fixtures."
+    },
+    {
+      "id": "land_building",
+      "label": "Land and Building",
+      "type": "Requirement",
+      "definition": "Funds for purchasing, renovating, or constructing land and buildings."
+    },
+    {
+      "id": "leasehold_improvements",
+      "label": "Leasehold Improvements",
+      "type": "Requirement",
+      "definition": "Funds used for improvements made to leased property."
+    },
+    {
+      "id": "debt_refinancing",
+      "label": "Debt Refinancing",
+      "type": "Requirement",
+      "definition": "Funds used to refinance existing debt under certain conditions."
+    },
+    {
+      "id": "seasonal_line_of_credit",
+      "label": "Seasonal Line of Credit",
+      "type": "Requirement",
+      "definition": "Funds available for seasonal business needs."
+    },
+    {
+      "id": "inventory",
+      "label": "Inventory",
+      "type": "Requirement",
+      "definition": "Funds used for purchasing inventory."
+    },
+    {
+      "id": "new_business_acquisition",
+      "label": "Starting a New Business or Acquisition",
+      "type": "Requirement",
+      "definition": "Funds used to start a new business or acquire an existing one."
+    },
+    {
+      "id": "floor_plan_financing",
+      "label": "Floor Plan Financing",
+      "type": "Requirement",
+      "definition": "Financing for purchasing inventory that is held for sale."
+    },
+    {
+      "id": "rental_real_estate_investment",
+      "label": "Investment in Rental Real Estate",
+      "type": "Requirement",
+      "definition": "Investments in rental properties without active borrower involvement."
+    },
+    {
+      "id": "speculative_purposes",
+      "label": "Speculative Purposes",
+      "type": "Requirement",
+      "definition": "Funds used for speculative investments."
+    },
+    {
+      "id": "lending_activities",
+      "label": "Lending Activities",
+      "type": "Requirement",
+      "definition": "Funds used for lending to others."
+    },
+    {
+      "id": "pyramid_sales_plans",
+      "label": "Pyramid Sales Plans",
+      "type": "Requirement",
+      "definition": "Funds used for pyramid scheme activities."
+    },
+    {
+      "id": "delinquent_taxes",
+      "label": "Delinquent Federal or State Taxes",
+      "type": "Requirement",
+      "definition": "Funds used to pay overdue taxes."
+    },
+    {
+      "id": "repaying_sbic_debt",
+      "label": "Repaying Debt to SBIC",
+      "type": "Requirement",
+      "definition": "Funds used to repay debts owed to Small Business Investment Companies."
+    },
+    {
+      "id": "insufficient_collateral_policy",
+      "label": "Insufficient Collateral Policy",
+      "type": "Requirement",
+      "definition": "The policy stating that a loan will not be declined solely due to insufficient collateral."
+    },
+    {
+      "id": "lien_requirement",
+      "label": "Lien on Business Assets",
+      "type": "Requirement",
+      "definition": "A requirement for the borrower to provide a lien on all available business assets as collateral for the loan."
+    },
+    {
+      "id": "lien_on_personal_assets",
+      "label": "Lien on Personal Assets",
+      "type": "Requirement",
+      "definition": "A requirement for the borrower to provide a lien on personal assets as collateral for the loan."
+    },
+    {
+      "id": "loan_amount_over_350000",
+      "label": "Loan Amount Over $350,000",
+      "type": "Amount",
+      "definition": "Loans that must be collateralized to the maximum extent possible."
+    },
+    {
+      "id": "personal_guaranty",
+      "label": "Personal Guaranty",
+      "type": "Requirement",
+      "definition": "A requirement for all owners of 20% or more of the business to provide a personal guaranty, and potentially others in key management positions."
+    },
+    {
+      "id": "owner_20_percent",
+      "label": "Owner 20% or More",
+      "type": "Requirement",
+      "definition": "A requirement that all owners of 20% or more of the business must provide a personal guaranty."
+    },
+    {
+      "id": "sba_approval_loan_program",
+      "label": "SBA Approval Loan Program",
+      "type": "LoanProgram",
+      "definition": "Loans that require approval from the Small Business Administration (SBA) before disbursement."
+    },
+    {
+      "id": "lender",
+      "label": "Lender",
+      "type": "LenderType",
+      "definition": "An entity that provides loans to borrowers, often requiring approval for certain loan programs."
+    },
+    {
+      "id": "sba_oversight",
+      "label": "SBA Oversight",
+      "type": "Regulation",
+      "definition": "The oversight provided by the Small Business Administration (SBA) for loans."
+    },
+    {
+      "id": "lender_services_loan",
+      "label": "Lender Services Loan",
+      "type": "LenderType",
+      "definition": "The type of lender that services the loan."
+    },
+    {
+      "id": "sba_approved_lenders",
+      "label": "SBA-approved Lenders",
+      "type": "LenderType",
+      "definition": "Lenders that are approved by the SBA to participate in its loan programs."
+    },
+    {
+      "id": "sba_standard_operating_procedures",
+      "label": "SBA Standard Operating Procedures",
+      "type": "Regulation",
+      "definition": "Guidelines established by the SBA that lenders must follow."
+    },
+    {
+      "id": "sop_50_10",
+      "label": "SOP 50 10",
+      "type": "Regulation",
+      "definition": "Standard Operating Procedure for Lender and Development Company Loan Programs."
+    },
+    {
+      "id": "sop_50_57",
+      "label": "SOP 50 57",
+      "type": "Regulation",
+      "definition": "Standard Operating Procedure for 7(a) Loan Servicing and Liquidation."
+    },
+    {
+      "id": "lender_eligibility",
+      "label": "Lender Eligibility",
+      "type": "Requirement",
+      "definition": "Criteria that lenders must meet to participate in the SBA 7(a) loan program."
+    },
+    {
+      "id": "participation_guidelines",
+      "label": "Participation Guidelines",
+      "type": "Requirement",
+      "definition": "Guidelines that outline how lenders can participate in the SBA 7(a) loan program."
+    },
+    {
+      "id": "us_sba",
+      "label": "U.S. Small Business Administration",
+      "type": "LenderType",
+      "definition": "The federal agency that administers the SBA 7(a) loan program."
+    },
+    {
+      "id": "lender_program_guide",
+      "label": "Lender Program Guide",
+      "type": "Regulation",
+      "definition": "A guide provided by the U.S. Small Business Administration detailing the rules and requirements for lenders."
+    },
+    {
+      "id": "delegation_levels",
+      "label": "Delegation Levels",
+      "type": "Requirement",
+      "definition": "Different levels of responsibilities and authorities that lenders have when participating in the SBA 7(a) program."
+    },
+    {
+      "id": "sba_lenders",
+      "label": "SBA Lenders",
+      "type": "LenderType",
+      "definition": "Lenders that are authorized to provide loans under SBA programs."
+    },
+    {
+      "id": "regular_lenders",
+      "label": "Regular Lenders",
+      "type": "LenderType",
+      "definition": "Lenders that submit all loan applications to the SBA for approval."
+    },
+    {
+      "id": "sba_approval_process",
+      "label": "SBA Approval Process",
+      "type": "LoanProgram",
+      "definition": "The process by which the SBA reviews loan applications submitted by regular lenders."
+    },
+    {
+      "id": "federally_regulated_bank",
+      "label": "Federally Regulated Bank",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to be federally regulated banks."
+    },
+    {
+      "id": "cra_rating",
+      "label": "Satisfactory CRA Rating",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to have a satisfactory Community Reinvestment Act rating."
+    },
+    {
+      "id": "sba_lender_training",
+      "label": "SBA Lender Training",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to complete SBA lender training."
+    },
+    {
+      "id": "loan_authorization_agreement",
+      "label": "Loan Authorization and Lender Agreement",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to sign a Loan Authorization and Lender Agreement."
+    },
+    {
+      "id": "lending_experience",
+      "label": "Adequate Lending Experience",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to demonstrate adequate lending experience."
+    },
+    {
+      "id": "business_days",
+      "label": "5-10 Business Days",
+      "type": "FinancialTerm",
+      "definition": "The typical time frame for the SBA approval process."
+    },
+    {
+      "id": "certified_lenders_program",
+      "label": "Certified Lenders Program (CLP)",
+      "type": "LoanProgram",
+      "definition": "A loan program where lenders receive partial delegation from the SBA to prepare credit analyses, which are then expedited for SBA review."
+    },
+    {
+      "id": "regular_lender_requirements",
+      "label": "Regular Lender Requirements",
+      "type": "Requirement",
+      "definition": "The baseline requirements that lenders must meet to qualify as Regular SBA lenders."
+    },
+    {
+      "id": "minimum_12_months",
+      "label": "Minimum 12 Months as Regular SBA Lender",
+      "type": "Requirement",
+      "definition": "A requirement for CLP status that mandates lenders must have been a Regular SBA lender for at least 12 months."
+    },
+    {
+      "id": "minimum_portfolio_10_loans",
+      "label": "Minimum Portfolio of 10 SBA Loans",
+      "type": "Requirement",
+      "definition": "A requirement for CLP status that mandates lenders must have a portfolio of at least 10 SBA loans."
+    },
+    {
+      "id": "satisfactory_loan_performance",
+      "label": "Satisfactory SBA Loan Performance",
+      "type": "Requirement",
+      "definition": "A requirement for CLP status that mandates a default rate below the SBA average."
+    },
+    {
+      "id": "demonstrated_proficiency",
+      "label": "Demonstrated Proficiency in SBA Lending",
+      "type": "Requirement",
+      "definition": "A requirement for CLP status that mandates lenders demonstrate proficiency in SBA lending."
+    },
+    {
+      "id": "preferred_lenders_program",
+      "label": "Preferred Lenders Program (PLP)",
+      "type": "LoanProgram",
+      "definition": "A loan program that allows lenders to make credit decisions independently without prior SBA approval, considered the gold standard in SBA lending."
+    },
+    {
+      "id": "clp_requirements",
+      "label": "CLP Requirements",
+      "type": "Requirement",
+      "definition": "Requirements that must be met to achieve CLP status, which are also applicable to PLP status."
+    },
+    {
+      "id": "minimum_24_months_clp",
+      "label": "Minimum 24 Months as a CLP Lender",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must have been a CLP lender for at least 24 months."
+    },
+    {
+      "id": "minimum_20_sba_loans",
+      "label": "Minimum Portfolio of 20 SBA Loans",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must have a portfolio of at least 20 SBA loans."
+    },
+    {
+      "id": "excellent_loan_performance_history",
+      "label": "Excellent Loan Performance History",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must demonstrate a history of excellent loan performance."
+    },
+    {
+      "id": "knowledge_of_sba_policies",
+      "label": "Demonstrated Knowledge of SBA Policies",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must show thorough knowledge of SBA policies and procedures."
+    },
+    {
+      "id": "adequate_internal_controls",
+      "label": "Adequate Internal Controls",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must have adequate internal controls and compliance systems."
+    },
+    {
+      "id": "regular_sba_audits",
+      "label": "Regular SBA Audits and Reviews",
+      "type": "Requirement",
+      "definition": "A requirement for PLP status that mandates lenders must undergo regular SBA audits and reviews."
+    },
+    {
+      "id": "fast_processing_times",
+      "label": "Fast Processing Times",
+      "type": "Requirement",
+      "definition": "A benefit of PLP status that allows for the fastest processing times with credit decisions made in-house."
+    },
+    {
+      "id": "operational_flexibility",
+      "label": "Greater Operational Flexibility",
+      "type": "Requirement",
+      "definition": "A benefit of PLP status that provides lenders with greater operational flexibility."
+    },
+    {
+      "id": "competitive_advantage",
+      "label": "Competitive Advantage",
+      "type": "Requirement",
+      "definition": "A benefit of PLP status that gives lenders a competitive advantage in serving borrowers."
+    },
+    {
+      "id": "reduced_sba_oversight",
+      "label": "Reduced SBA Oversight",
+      "type": "Requirement",
+      "definition": "A benefit of PLP status that results in reduced SBA oversight for routine decisions."
+    },
+    {
+      "id": "credit_analysis_procedures",
+      "label": "Credit Analysis Procedures",
+      "type": "Requirement",
+      "definition": "The procedures that lenders use to assess the creditworthiness of borrowers."
+    },
+    {
+      "id": "documentation",
+      "label": "Documentation",
+      "type": "Requirement",
+      "definition": "The necessary paperwork and information required for loan processing."
+    },
+    {
+      "id": "sba_response_time",
+      "label": "SBA Response Time",
+      "type": "FinancialTerm",
+      "definition": "The time taken by the SBA to respond to loan applications."
+    },
+    {
+      "id": "sba_guarantee",
+      "label": "SBA Guarantee",
+      "type": "FinancialTerm",
+      "definition": "The percentage of the loan amount that the SBA guarantees."
+    },
+    {
+      "id": "cdfi",
+      "label": "CDFI",
+      "type": "LenderType",
+      "definition": "Community Development Financial Institutions that provide financial services in low-income communities."
+    },
+    {
+      "id": "certified_development_company",
+      "label": "Certified Development Company",
+      "type": "LenderType",
+      "definition": "Organizations that work with the SBA to provide financing to small businesses."
+    },
+    {
+      "id": "microlender",
+      "label": "Microlender",
+      "type": "LenderType",
+      "definition": "Lenders that provide small loans to entrepreneurs and small businesses."
+    },
+    {
+      "id": "seven_a",
+      "label": "SBA 7(a)",
+      "type": "LoanProgram",
+      "definition": "A loan program that provides financial assistance to small businesses."
+    },
+    {
+      "id": "max_amount_community_advantage",
+      "label": "$350,000",
+      "type": "Amount",
+      "definition": "The maximum loan amount available under the Community Advantage program."
+    },
+    {
+      "id": "sba_lender_responsibilities",
+      "label": "Lender Responsibilities",
+      "type": "LoanProgram",
+      "definition": "Responsibilities and duties of lenders in the SBA loan process."
+    },
+    {
+      "id": "credit_analysis",
+      "label": "Credit Analysis",
+      "type": "Requirement",
+      "definition": "A thorough evaluation of the borrower's financial situation and creditworthiness."
+    },
+    {
+      "id": "loan_closing",
+      "label": "Loan Closing",
+      "type": "Requirement",
+      "definition": "The process of finalizing the loan agreement and ensuring all conditions are met."
+    },
+    {
+      "id": "loan_servicing",
+      "label": "Loan Servicing",
+      "type": "Requirement",
+      "definition": "Ongoing management and support of the loan after disbursement."
+    },
+    {
+      "id": "liquidation",
+      "label": "Liquidation",
+      "type": "Requirement",
+      "definition": "The process of recovering funds from a defaulted loan."
+    },
+    {
+      "id": "commercially_reasonable_manner",
+      "label": "Commercially Reasonable Manner",
+      "type": "Requirement",
+      "definition": "A standard of conduct expected from lenders in managing loans."
+    },
+    {
+      "id": "sba_loan_documents",
+      "label": "Loan Documents",
+      "type": "Requirement",
+      "definition": "All necessary paperwork required to finalize and manage the loan."
+    },
+    {
+      "id": "insurance_verification",
+      "label": "Insurance Verification",
+      "type": "Requirement",
+      "definition": "The process of confirming that required insurance is obtained."
+    },
+    {
+      "id": "collateral_perfection",
+      "label": "Collateral Perfection",
+      "type": "Requirement",
+      "definition": "The act of securing interests in collateral through legal means."
+    },
+    {
+      "id": "payment_collection",
+      "label": "Payment Collection",
+      "type": "Requirement",
+      "definition": "The process of collecting loan payments from borrowers."
+    },
+    {
+      "id": "financial_performance_monitoring",
+      "label": "Financial Performance Monitoring",
+      "type": "Requirement",
+      "definition": "Ongoing assessment of the borrower's financial health."
+    },
+    {
+      "id": "default_warning_signs",
+      "label": "Default Warning Signs",
+      "type": "Requirement",
+      "definition": "Indicators that a borrower may be at risk of defaulting on the loan."
+    },
+    {
+      "id": "loss_claim_submission",
+      "label": "Loss Claim Submission",
+      "type": "Requirement",
+      "definition": "The process of submitting a claim to the SBA for losses incurred."
+    },
+    {
+      "id": "sba_e_tran_system",
+      "label": "SBA E-Tran System",
+      "type": "Requirement",
+      "definition": "The electronic system used for reporting loan status to the SBA."
+    },
+    {
+      "id": "sba_audits_and_reviews",
+      "label": "SBA Audits and Reviews",
+      "type": "LoanProgram",
+      "definition": "Regular audits and reviews conducted by the SBA to assess lender performance."
+    },
+    {
+      "id": "on_site_reviews",
+      "label": "On-site Reviews of Loan Files",
+      "type": "Requirement",
+      "definition": "Requirement for lenders to undergo on-site reviews of their loan files."
+    },
+    {
+      "id": "portfolio_performance_analysis",
+      "label": "Portfolio Performance Analysis",
+      "type": "Requirement",
+      "definition": "Requirement for lenders to have their portfolio performance analyzed."
+    },
+    {
+      "id": "compliance_with_sba_sop",
+      "label": "Compliance with SBA Standard Operating Procedures",
+      "type": "Requirement",
+      "definition": "Requirement for lenders to comply with SBA Standard Operating Procedures."
+    },
+    {
+      "id": "verification_of_delegated_authority",
+      "label": "Verification of Proper Use of Delegated Authority",
+      "type": "Requirement",
+      "definition": "Requirement for lenders to verify the proper use of their delegated authority."
+    },
+    {
+      "id": "purchase_rate",
+      "label": "Purchase Rate",
+      "type": "FinancialTerm",
+      "definition": "Percentage of loans purchased by SBA due to default."
+    },
+    {
+      "id": "default_rate",
+      "label": "Default Rate",
+      "type": "FinancialTerm",
+      "definition": "Rate of defaults compared to the SBA portfolio average."
+    },
+    {
+      "id": "timeliness_of_reporting",
+      "label": "Timeliness of Reporting and Documentation",
+      "type": "FinancialTerm",
+      "definition": "Metric assessing the timeliness of lenders' reporting and documentation."
+    },
+    {
+      "id": "compliance_findings",
+      "label": "Compliance Findings",
+      "type": "FinancialTerm",
+      "definition": "Findings from compliance reviews conducted by the SBA."
+    },
+    {
+      "id": "repair_orders",
+      "label": "Repair Orders",
+      "type": "Requirement",
+      "definition": "Orders requiring lenders to take corrective action for non-compliance."
+    },
+    {
+      "id": "probation_or_suspension",
+      "label": "Probation or Suspension of Lending Authority",
+      "type": "Requirement",
+      "definition": "Consequences for lenders that may include probation or suspension of their lending authority."
+    },
+    {
+      "id": "reduction_in_delegation_level",
+      "label": "Reduction in Delegation Level",
+      "type": "Requirement",
+      "definition": "Reduction in the level of delegation for lenders, such as from PLP to CLP."
+    },
+    {
+      "id": "revocation_of_lending_authority",
+      "label": "Revocation of SBA Lending Authority",
+      "type": "Requirement",
+      "definition": "Complete revocation of a lender's authority to lend under SBA programs."
+    },
+    {
+      "id": "denial_of_guaranty_purchase",
+      "label": "Denial of Guaranty Purchase",
+      "type": "Requirement",
+      "definition": "Denial of the ability to purchase a guaranty, resulting in the lender bearing the loss."
+    },
+    {
+      "id": "referral_to_oig",
+      "label": "Referral to the SBA Office of Inspector General",
+      "type": "Requirement",
+      "definition": "Referral of non-compliant lenders to the SBA Office of Inspector General."
+    },
+    {
+      "id": "borrower_information_form",
+      "label": "SBA Form 1919",
+      "type": "Requirement",
+      "definition": "A form required for each principal to provide borrower information."
+    },
+    {
+      "id": "irs_tax_transcripts",
+      "label": "IRS Tax Transcripts",
+      "type": "Requirement",
+      "definition": "Authorization form (Form 4506-C) to obtain tax transcripts from the IRS."
+    },
+    {
+      "id": "sba_form_912",
+      "label": "SBA Form 912",
+      "type": "Requirement",
+      "definition": "A form required for each principal to provide a statement of personal history."
+    },
+    {
+      "id": "credit_reports",
+      "label": "Credit Reports",
+      "type": "Requirement",
+      "definition": "Reports detailing the credit history of all principals and the business."
+    },
+    {
+      "id": "appraisals",
+      "label": "Appraisals",
+      "type": "Requirement",
+      "definition": "Valuations of real estate collateral."
+    },
+    {
+      "id": "environmental_reviews",
+      "label": "Environmental Reviews",
+      "type": "Requirement",
+      "definition": "Assessments required for real estate transactions."
+    },
+    {
+      "id": "evidence_of_insurance",
+      "label": "Evidence of Insurance",
+      "type": "Requirement",
+      "definition": "Documentation proving that the business has insurance coverage."
+    },
+    {
+      "id": "franchise_agreements",
+      "label": "Franchise Agreements",
+      "type": "Requirement",
+      "definition": "Contracts that outline the terms of a franchise, required if applicable."
+    },
+    {
+      "id": "buy_sell_agreements",
+      "label": "Buy-Sell Agreements",
+      "type": "Requirement",
+      "definition": "Contracts that outline the terms for buying and selling ownership interests, required if applicable."
+    },
+    {
+      "id": "franchise_loans",
+      "label": "Franchise Loans",
+      "type": "LoanProgram",
+      "definition": "Loans made to franchise businesses that require verification of franchise listing on the SBA Franchise Directory."
+    },
+    {
+      "id": "change_of_ownership",
+      "label": "Change of Ownership",
+      "type": "LoanProgram",
+      "definition": "A situation where a borrower with an existing SBA loan undergoes a change of ownership requiring SBA approval."
+    },
+    {
+      "id": "loan_modifications",
+      "label": "Loan Modifications",
+      "type": "LoanProgram",
+      "definition": "Adjustments to existing loans that may or may not require SBA approval depending on the modification type."
+    },
+    {
+      "id": "sba_franchise_directory",
+      "label": "SBA Franchise Directory",
+      "type": "Requirement",
+      "definition": "A directory that lists franchises eligible for SBA loans."
+    },
+    {
+      "id": "payment_deferrals",
+      "label": "Payment Deferrals",
+      "type": "Requirement",
+      "definition": "Temporary postponement of loan payments, allowed for up to 6 months."
+    },
+    {
+      "id": "maturity_extensions",
+      "label": "Maturity Extensions",
+      "type": "Requirement",
+      "definition": "Extensions of the loan term within SBA maximum terms."
+    },
+    {
+      "id": "collateral_substitution",
+      "label": "Collateral Substitution",
+      "type": "Requirement",
+      "definition": "Replacing one form of collateral with another in a loan agreement."
+    },
+    {
+      "id": "release_of_collateral",
+      "label": "Release of Collateral",
+      "type": "Requirement",
+      "definition": "The process of removing collateral from a loan agreement."
+    },
+    {
+      "id": "assumption_by_new_borrower",
+      "label": "Assumption by New Borrower",
+      "type": "Requirement",
+      "definition": "Transfer of loan obligations to a new borrower."
+    },
+    {
+      "id": "major_modifications",
+      "label": "Major Modifications",
+      "type": "Requirement",
+      "definition": "Significant changes to loan terms that require SBA approval."
+    },
+    {
+      "id": "sba_lending_report_requirements",
+      "label": "SBA Lending Reporting Requirements",
+      "type": "Requirement",
+      "definition": "Requirements for lenders to report various loan-related data to the SBA."
+    },
+    {
+      "id": "sba_loan_origination_data",
+      "label": "Loan Origination Data",
+      "type": "Requirement",
+      "definition": "Data that lenders must report at the time of loan closing."
+    },
+    {
+      "id": "sba_monthly_payment_status",
+      "label": "Monthly Payment Status",
+      "type": "Requirement",
+      "definition": "Status of monthly payments that lenders must report."
+    },
+    {
+      "id": "sba_annual_financial_reviews",
+      "label": "Annual Financial Reviews",
+      "type": "Requirement",
+      "definition": "Annual reviews required for loans over $350,000."
+    },
+    {
+      "id": "sba_default_notifications",
+      "label": "Default Notifications",
+      "type": "Requirement",
+      "definition": "Notifications that must be reported within 60 days of an uncured default."
+    },
+    {
+      "id": "sba_liquidation_status_updates",
+      "label": "Liquidation Status Updates",
+      "type": "Requirement",
+      "definition": "Updates on the status of loan liquidation that lenders must report."
+    },
+    {
+      "id": "sba_loss_claims_recovery_reports",
+      "label": "Loss Claims and Recovery Reports",
+      "type": "Requirement",
+      "definition": "Reports on loss claims and recovery that lenders must submit."
+    },
+    {
+      "id": "sba_lending_authority",
+      "label": "SBA Lending Authority",
+      "type": "Regulation",
+      "definition": "Authority granted to lenders to operate under SBA lending programs."
+    },
+    {
+      "id": "sba_lender_performance_evaluations",
+      "label": "Lender Performance Evaluations",
+      "type": "Regulation",
+      "definition": "Evaluations of lender performance based on reporting accuracy and timeliness."
+    },
+    {
+      "id": "sba_loans_over_350k",
+      "label": "Loans Over $350,000",
+      "type": "FinancialTerm",
+      "definition": "Loans that require annual financial reviews as part of the reporting requirements."
+    },
+    {
+      "id": "ethical_standards",
+      "label": "Ethical Standards",
+      "type": "Requirement",
+      "definition": "Standards that SBA lenders must adhere to, ensuring fairness and transparency in loan transactions."
+    },
+    {
+      "id": "equal_credit_opportunity_act",
+      "label": "Equal Credit Opportunity Act",
+      "type": "Regulation",
+      "definition": "A federal law that prohibits discrimination in lending."
+    },
+    {
+      "id": "fair_housing_act",
+      "label": "Fair Housing Act",
+      "type": "Regulation",
+      "definition": "A federal law that prohibits discrimination in housing-related transactions."
+    },
+    {
+      "id": "no_conflicts_of_interest",
+      "label": "No Conflicts of Interest",
+      "type": "Requirement",
+      "definition": "A requirement that lenders must avoid any conflicts of interest in loan transactions."
+    },
+    {
+      "id": "fair_treatment_of_applicants",
+      "label": "Fair Treatment of Applicants",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to treat all loan applicants fairly and equally."
+    },
+    {
+      "id": "transparency_in_fees",
+      "label": "Transparency in Fees",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to be transparent about fees and charges associated with loans."
+    },
+    {
+      "id": "protection_of_borrower_information",
+      "label": "Protection of Borrower Information",
+      "type": "Requirement",
+      "definition": "A requirement for lenders to protect the personal information of borrowers."
+    },
+    {
+      "id": "prohibition_on_referral_fees",
+      "label": "Prohibition on Referral Fees",
+      "type": "Requirement",
+      "definition": "A requirement that prohibits lenders from accepting referral fees or kickbacks."
+    }
+  ],
+  "edges": [
+    {
+      "source": "sba_7a",
+      "target": "borrower_faq",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "for_profit_business",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sba_size_standards",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "ability_to_repay",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sound_business_purpose",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "credit_elsewhere",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "federal_debt",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "max_loan_amount",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_express",
+      "target": "max_express_loan_amount",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "max_community_advantage_amount",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_guarantee",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "interest_rate_cap",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_7a",
+      "target": "repayment_term",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "down_payment",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sba_approved_lender",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_plan",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "financial_documents",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "application_documentation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "lender_evaluation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "sba_approval",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "credit_score_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "personal_financial_statements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_financial_statements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "schedule_of_business_debt",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "resumes_for_principals",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_licenses_permits",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "lease_agreements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "articles_of_incorporation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_processing_time",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_express",
+      "target": "loan_processing_time",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "plp_loan",
+      "target": "preferred_lender_processing_time",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "standard_7a",
+      "target": "standard_lender_processing_time",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "total_process_time",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fico_sbss",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "credit_score_requirement",
+      "target": "credit_score_680",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "minimum_credit_score",
+      "target": "minimum_fico_sbss_score",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "minimum_credit_score",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sba_guaranty_fee",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "annual_service_fee",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "maximum_interest_rate_350k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "maximum_interest_rate_50k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fee_reduction_programs",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "prohibited_fees",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "closing_costs",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "repayment_terms",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "working_capital",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "equipment",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "real_estate",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "business_acquisition",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_maturity_15_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_maturity_less_15_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "prepayment_penalty",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "default_procedure",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "loan_maturity_15_years",
+      "target": "year_1_penalty",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "loan_maturity_15_years",
+      "target": "year_2_penalty",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "loan_maturity_15_years",
+      "target": "year_3_penalty",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "loan_maturity_15_years",
+      "target": "no_penalty_after_year_3",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "credit_score_impact",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "forgiveness_eligibility",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "amount_500000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_express",
+      "target": "guarantee_50",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "requirement_strong_business_plan",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "requirement_industry_experience",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "requirement_good_credit",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "requirement_collateral",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "amount_350000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "lender_type_cdfi",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "export_express",
+      "target": "amount_500000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "export_express",
+      "target": "guarantee_90",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "export_express",
+      "target": "guarantee_75",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "requirement_strong_business_plan",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "requirement_industry_experience",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "requirement_good_credit",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "requirement_collateral",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "microloans",
+      "target": "amount_50000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "microloans",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "collateral_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_amount_25000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_microloans",
+      "target": "credit_score_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_microloans",
+      "target": "collateral_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sba_regulation",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_microloans",
+      "target": "sba_regulation",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "credit_score_650",
+      "target": "sba_microloans",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "approved_lender",
+      "target": "sba_7a",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "approved_lender",
+      "target": "sba_microloans",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "public_program_guide",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_7a",
+      "target": "guaranty_percentage",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "loan_amount",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "partnering_lenders",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "community_development_organizations",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "micro_lending_institutions",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "risk_elimination",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "eligibility_requirements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "for_profit_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "small_business",
+      "target": "sba_size_standards",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "small_business",
+      "target": "manufacturing_size_limit",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "small_business",
+      "target": "service_business_receipts_limit",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "small_business",
+      "target": "naics_code_variation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_engagement_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "reasonable_invested_equity",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "alternative_financial_resources_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "non_federal_credit_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "demonstrate_need",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "delinquent_debt",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "federal_debts",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "ineligible_businesses",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "illegal_activities",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "discriminatory_practices",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "gambling_enterprises",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "lending_businesses",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "speculative_activities",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "pyramid_schemes",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "religious_promotion",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "government_entities",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "religious_instruction",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "private_clubs",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "ineligible_businesses",
+      "target": "life_insurance_companies",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "standard_7a_loan",
+      "target": "loan_amount_5000000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_express",
+      "target": "loan_amount_500000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "export_express",
+      "target": "loan_amount_500000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "export_working_capital",
+      "target": "loan_amount_5000000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "international_trade",
+      "target": "loan_amount_5000000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "loan_amount_350000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "standard_7a_loan",
+      "target": "guaranty_percentage_85",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "standard_7a_loan",
+      "target": "guaranty_percentage_75",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "guaranty_percentage_50",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "standard_7a_loan",
+      "target": "maturity_term_10_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "export_working_capital",
+      "target": "maturity_term_10_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "export_express",
+      "target": "maturity_term_10_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "international_trade",
+      "target": "maturity_term_25_years",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "community_advantage",
+      "target": "maturity_term_mixed_use",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fixed_rate_50k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "variable_rate_50k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fixed_rate_50k_250k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "variable_rate_50k_250k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fixed_rate_250k_350k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "variable_rate_250k_350k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "fixed_rate_above_350k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "variable_rate_above_350k",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "fixed_rate_50k",
+      "target": "amount_50k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "variable_rate_50k",
+      "target": "amount_50k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "fixed_rate_50k_250k",
+      "target": "amount_250k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "variable_rate_50k_250k",
+      "target": "amount_250k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "fixed_rate_250k_350k",
+      "target": "amount_350k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "variable_rate_250k_350k",
+      "target": "amount_350k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "fixed_rate_above_350k",
+      "target": "amount_above_350k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "variable_rate_above_350k",
+      "target": "amount_above_350k",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_guaranty_fees",
+      "target": "loan_amount_150k_or_less",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "sba_guaranty_fees",
+      "target": "loan_amount_150k_to_700k",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "sba_guaranty_fees",
+      "target": "loan_amount_700k_to_5m",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "sba_guaranty_fees",
+      "target": "annual_service_fee",
+      "relation": "HAS_FEE"
+    },
+    {
+      "source": "loan_amount_150k_or_less",
+      "target": "fee_2_percent",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "loan_amount_150k_to_700k",
+      "target": "fee_3_percent",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "loan_amount_700k_to_5m",
+      "target": "fee_3_5_percent_plus_0_25_percent",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "annual_service_fee",
+      "target": "annual_service_fee_percentage",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_7a",
+      "target": "working_capital",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "machinery_equipment",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "furniture_fixtures",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "land_building",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "leasehold_improvements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "debt_refinancing",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "seasonal_line_of_credit",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "inventory",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "new_business_acquisition",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "floor_plan_financing",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "rental_real_estate_investment",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "speculative_purposes",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "lending_activities",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "pyramid_sales_plans",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "delinquent_taxes",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "repaying_sbic_debt",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "insufficient_collateral_policy",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "lien_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "lien_on_personal_assets",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "collateral_requirement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "loan_amount_25000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "loan_amount_350000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "loan_amount_over_350000",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_loan_program",
+      "target": "owner_20_percent",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_loan_program",
+      "target": "lender",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "lender_services_loan",
+      "target": "sba_oversight",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_approved_lenders",
+      "target": "sba_standard_operating_procedures",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_approved_lenders",
+      "target": "sop_50_10",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_approved_lenders",
+      "target": "sop_50_57",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_7a",
+      "target": "lender_eligibility",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "participation_guidelines",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "us_sba",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "lender_program_guide",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_7a",
+      "target": "approved_lender",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "sba_7a",
+      "target": "delegation_levels",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "federally_regulated_bank",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "cra_rating",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "sba_lender_training",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "loan_authorization_agreement",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "lending_experience",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_approval_process",
+      "target": "business_days",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "certified_lenders_program",
+      "target": "regular_lender_requirements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "certified_lenders_program",
+      "target": "minimum_12_months",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "certified_lenders_program",
+      "target": "minimum_portfolio_10_loans",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "certified_lenders_program",
+      "target": "satisfactory_loan_performance",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "certified_lenders_program",
+      "target": "demonstrated_proficiency",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "clp_requirements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "minimum_24_months_clp",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "minimum_20_sba_loans",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "excellent_loan_performance_history",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "knowledge_of_sba_policies",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "adequate_internal_controls",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "regular_sba_audits",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "fast_processing_times",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "operational_flexibility",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "competitive_advantage",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "preferred_lenders_program",
+      "target": "reduced_sba_oversight",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "credit_analysis_procedures",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "documentation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_express",
+      "target": "loan_amount",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "sba_express",
+      "target": "sba_guarantee",
+      "relation": "INTEREST_RATE"
+    },
+    {
+      "source": "sba_response_time",
+      "target": "sba_express",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_express",
+      "target": "sba_response_time",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "seven_a",
+      "target": "community_advantage",
+      "relation": "TYPE_OF"
+    },
+    {
+      "source": "community_advantage",
+      "target": "max_amount_community_advantage",
+      "relation": "MAX_AMOUNT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "cdfi",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "certified_development_company",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "community_advantage",
+      "target": "microlender",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lender_responsibilities",
+      "target": "credit_analysis",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lender_responsibilities",
+      "target": "loan_closing",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lender_responsibilities",
+      "target": "loan_servicing",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lender_responsibilities",
+      "target": "liquidation",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_closing",
+      "target": "sba_loan_documents",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "loan_closing",
+      "target": "insurance_verification",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "loan_closing",
+      "target": "collateral_perfection",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "loan_servicing",
+      "target": "payment_collection",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_servicing",
+      "target": "financial_performance_monitoring",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_servicing",
+      "target": "default_warning_signs",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "liquidation",
+      "target": "loss_claim_submission",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_lender_responsibilities",
+      "target": "commercially_reasonable_manner",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_servicing",
+      "target": "sba_e_tran_system",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "on_site_reviews",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "portfolio_performance_analysis",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "compliance_with_sba_sop",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "verification_of_delegated_authority",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "repair_orders",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "probation_or_suspension",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "reduction_in_delegation_level",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "revocation_of_lending_authority",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "denial_of_guaranty_purchase",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "referral_to_oig",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "purchase_rate",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "default_rate",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "timeliness_of_reporting",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_audits_and_reviews",
+      "target": "compliance_findings",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_7a",
+      "target": "borrower_information_form",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "personal_financial_statements",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_financial_statements",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "business_plan",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "irs_tax_transcripts",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "sba_form_912",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "credit_reports",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "appraisals",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "environmental_reviews",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "evidence_of_insurance",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "franchise_agreements",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_7a",
+      "target": "buy_sell_agreements",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "franchise_loans",
+      "target": "sba_franchise_directory",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "change_of_ownership",
+      "target": "sba_approval",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "change_of_ownership",
+      "target": "eligibility_requirements",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "payment_deferrals",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "maturity_extensions",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "collateral_substitution",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "release_of_collateral",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "assumption_by_new_borrower",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "loan_modifications",
+      "target": "major_modifications",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "major_modifications",
+      "target": "sba_approval",
+      "relation": "REQUIRES_DOCUMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_loan_origination_data",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_monthly_payment_status",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_annual_financial_reviews",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_default_notifications",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_liquidation_status_updates",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_loss_claims_recovery_reports",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_lending_authority",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_lending_report_requirements",
+      "target": "sba_lender_performance_evaluations",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_annual_financial_reviews",
+      "target": "sba_loans_over_350k",
+      "relation": "APPLIES_TO"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "ethical_standards",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "no_conflicts_of_interest",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "fair_treatment_of_applicants",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "transparency_in_fees",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "protection_of_borrower_information",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "prohibition_on_referral_fees",
+      "relation": "HAS_REQUIREMENT"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "equal_credit_opportunity_act",
+      "relation": "GOVERNED_BY"
+    },
+    {
+      "source": "sba_lenders",
+      "target": "fair_housing_act",
+      "relation": "GOVERNED_BY"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-streamlit>=1.31.0
+streamlit>=1.36.0
 chromadb>=0.4.22
 openai>=1.12.0
 pypdf>=4.0.0
 tiktoken>=0.6.0
 python-dotenv>=1.0.0
+networkx>=3.2
+pyvis>=0.3.2
