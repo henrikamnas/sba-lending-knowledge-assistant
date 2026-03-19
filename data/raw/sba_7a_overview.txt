@@ -1,0 +1,161 @@
+SBA 7(a) LOAN PROGRAM OVERVIEW
+Source: U.S. Small Business Administration — Public Program Guide
+
+PROGRAM DESCRIPTION
+
+The 7(a) Loan Program is the SBA's primary program for providing financial assistance to small businesses. The terms and conditions, like the guaranty percentage and loan amount, may vary by the type of loan made and the needs of the borrowing small business. The SBA does not make loans directly; rather, the SBA sets the guidelines for loans made by its partnering lenders, community development organizations, and micro-lending institutions. The SBA guarantees that these loans will be repaid, thus eliminating some of the risk to the lending partners.
+
+ELIGIBILITY REQUIREMENTS
+
+To be eligible for a 7(a) loan, businesses must:
+
+1. Operate for profit
+The business must be a for-profit entity operating in the United States or its territories.
+
+2. Meet SBA size standards
+The business must qualify as a small business as defined by SBA size standards. Size standards vary by industry and are based on either the number of employees or average annual receipts. Generally, manufacturing businesses can have up to 500 employees and service businesses can have average annual receipts up to $8 million, though these thresholds vary by specific NAICS code.
+
+3. Be engaged in, or propose to do business in, the United States or its territories
+The business must operate within U.S. borders or territories.
+
+4. Have reasonable invested equity
+The business owner must have invested their own time and/or money into the business, demonstrating a personal stake in its success.
+
+5. Use alternative financial resources first
+The borrower must have used alternative financial resources, including personal assets, before seeking financial assistance from the SBA. This means the borrower must demonstrate that they cannot obtain the desired credit on reasonable terms from non-Federal sources without SBA assistance.
+
+6. Be able to demonstrate a need for the loan proceeds
+The business must have a sound business purpose for the loan funds.
+
+7. Not be delinquent on any existing debt obligations to the U.S. government
+This includes student loans, prior SBA loans, and other federal debts.
+
+INELIGIBLE BUSINESSES
+
+The following types of businesses are generally ineligible for SBA 7(a) loans:
+
+- Businesses engaged in illegal activities
+- Businesses that restrict patronage based on race, color, religion, or national origin
+- Gambling enterprises (except those in certain states where gambling is legal)
+- Businesses primarily engaged in lending (such as banks, finance companies, and factors)
+- Businesses primarily engaged in speculative activities
+- Pyramid sale distribution plans
+- Businesses engaged in the promotion of religion
+- Government-owned entities (except Native American tribes)
+- Businesses principally engaged in teaching, instructing, counseling, or indoctrinating religion
+- Private clubs that limit membership
+- Life insurance companies
+
+LOAN AMOUNTS AND TERMS
+
+Maximum Loan Amounts:
+- Standard 7(a) Loan: Up to $5,000,000
+- SBA Express: Up to $500,000
+- Export Express: Up to $500,000
+- Export Working Capital: Up to $5,000,000
+- International Trade: Up to $5,000,000
+- Community Advantage: Up to $350,000
+
+SBA Guaranty Percentages:
+- Loans of $150,000 or less: up to 85% guaranty
+- Loans greater than $150,000: up to 75% guaranty
+- SBA Express: up to 50% guaranty
+
+Maturity Terms:
+- Working capital and inventory: Generally up to 10 years
+- Equipment: Generally up to 10 years (or useful life of equipment)
+- Real estate: Up to 25 years
+- Mixed-use loans: Blended maturity based on use of proceeds
+
+INTEREST RATES
+
+Interest rates on SBA 7(a) loans are negotiated between the borrower and the lender but are subject to SBA maximum rates:
+
+For loans of $50,000 or less:
+- Fixed rate loans: Prime rate plus 6.5%
+- Variable rate loans: Prime rate plus 6.5%
+
+For loans between $50,001 and $250,000:
+- Fixed rate loans: Prime rate plus 6.0%
+- Variable rate loans: Prime rate plus 6.0%
+
+For loans between $250,001 and $350,000:
+- Fixed rate loans: Prime rate plus 4.5%
+- Variable rate loans: Prime rate plus 4.5%
+
+For loans greater than $350,000:
+- Fixed rate loans: Prime rate plus 3.0%
+- Variable rate loans: Prime rate plus 3.0%
+
+The prime rate is the base rate posted by 75% of the nation's 30 largest banks as reported in the Wall Street Journal.
+
+FEES
+
+SBA Guaranty Fees:
+Lenders pay the SBA a guaranty fee for each loan approved. This fee is typically passed on to the borrower. The fee structure is based on the guaranteed portion of the loan:
+
+- Loans of $150,000 or less: 2.0% of the guaranteed portion
+- Loans of $150,001 to $700,000: 3.0% of the guaranteed portion
+- Loans of $700,001 to $5,000,000: 3.5% of the guaranteed portion plus an additional 0.25% of the guaranteed portion that exceeds $1,000,000
+
+Annual Service Fee:
+Lenders pay an annual service fee of 0.55% of the outstanding balance of SBA's guaranteed portion of each loan.
+
+USE OF PROCEEDS
+
+SBA 7(a) loan proceeds may be used for:
+- Working capital
+- Machinery and equipment
+- Furniture and fixtures
+- Land and building (including purchase, renovation, and new construction)
+- Leasehold improvements
+- Debt refinancing (under certain conditions)
+- Seasonal line of credit
+- Inventory
+- Starting a new business or assisting in the acquisition of an existing business
+
+Loan proceeds CANNOT be used for:
+- Floor plan financing
+- Investments in rental real estate when the borrower has no active role
+- Speculative purposes
+- Lending activities
+- Pyramid sales plans
+- Paying delinquent federal or state taxes
+- Repaying debt to a Small Business Investment Company (SBIC)
+
+COLLATERAL
+
+The SBA requires that collateral be pledged for all 7(a) loans. However, the SBA will not decline a loan solely because of insufficient collateral. When collateral is insufficient, the lender may:
+
+1. Take a lien on all available business assets
+2. Take a lien on personal assets of the principals
+3. Accept other forms of collateral as appropriate
+
+For loans up to $25,000, no collateral is required.
+For loans between $25,001 and $350,000, the lender must follow their established collateral policies.
+For loans over $350,000, the lender must collateralize the loan to the maximum extent possible up to the loan amount.
+
+PERSONAL GUARANTY
+
+All owners of 20% or more of the business must provide a personal guaranty. The SBA may also require personal guarantees from other individuals who hold key management positions or who are critical to the success of the business.
+
+APPLICATION PROCESS
+
+1. The borrower applies through an SBA-approved lender
+2. The lender reviews the application and makes a credit decision
+3. For loans requiring SBA approval, the lender submits the application to the SBA
+4. The SBA reviews and makes a final decision
+5. Upon approval, the lender closes and disburses the loan
+6. The lender services the loan, with the SBA providing oversight
+
+LENDER RESPONSIBILITIES
+
+SBA-approved lenders are responsible for:
+- Processing loan applications
+- Making credit decisions (for delegated lenders)
+- Closing and disbursing loans
+- Servicing loans throughout their term
+- Liquidating defaulted loans
+- Reporting to the SBA on loan status
+
+Lenders must comply with all SBA Standard Operating Procedures (SOPs), including SOP 50 10 (Lender and Development Company Loan Programs) and SOP 50 57 (7(a) Loan Servicing and Liquidation).

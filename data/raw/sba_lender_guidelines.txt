@@ -1,0 +1,171 @@
+SBA 7(a) LENDER ELIGIBILITY AND PARTICIPATION GUIDELINES
+Source: U.S. Small Business Administration — Lender Program Guide
+
+OVERVIEW OF SBA LENDING PROGRAMS
+
+The SBA partners with approved lenders to provide loans to small businesses. Lenders participate in the 7(a) program under various levels of delegation, each with different responsibilities and authorities.
+
+TYPES OF SBA LENDERS
+
+1. Regular Lenders (Non-Delegated)
+Regular lenders submit all loan applications to the SBA for approval. The SBA reviews the credit analysis, verifies eligibility, and makes the final approval decision. This process typically takes 5-10 business days.
+
+Requirements for Regular Lender status:
+- Be a federally regulated bank, credit union, or savings institution
+- Have a satisfactory CRA (Community Reinvestment Act) rating
+- Complete SBA lender training
+- Sign a Loan Authorization and Lender Agreement
+- Demonstrate adequate lending experience
+
+2. Certified Lenders Program (CLP)
+CLP lenders receive partial delegation from the SBA. They prepare the credit analysis, and the SBA reviews it on an expedited basis (typically 3 business days). The SBA still makes the final approval decision.
+
+Requirements for CLP status:
+- All Regular Lender requirements, plus:
+- Minimum of 12 months as a Regular SBA lender
+- Minimum portfolio of 10 SBA loans
+- Satisfactory SBA loan performance (default rate below SBA average)
+- Demonstrated proficiency in SBA lending
+
+3. Preferred Lenders Program (PLP)
+PLP lenders have the highest level of delegation. They make credit decisions independently without prior SBA approval. PLP status is considered the gold standard in SBA lending.
+
+Requirements for PLP status:
+- All CLP requirements, plus:
+- Minimum of 24 months as a CLP lender
+- Minimum portfolio of 20 SBA loans
+- Excellent loan performance history
+- Demonstrated thorough knowledge of SBA policies and procedures
+- Adequate internal controls and compliance systems
+- Regular SBA audits and reviews
+
+PLP benefits:
+- Fastest processing times (credit decisions made in-house)
+- Greater operational flexibility
+- Competitive advantage in serving borrowers
+- Reduced SBA oversight for routine decisions
+
+4. SBA Express Lenders
+Express lenders are authorized to use their own credit analysis procedures and documentation for loans up to $500,000, with a 36-hour SBA response time. The SBA guarantees up to 50% of Express loans.
+
+5. Community Advantage Lenders
+Mission-focused lenders such as CDFIs, certified development companies, and microlenders can participate in the Community Advantage pilot program to make 7(a) loans up to $350,000 in underserved communities.
+
+LENDER RESPONSIBILITIES
+
+Credit Analysis:
+SBA lenders must perform a thorough credit analysis for each loan, including:
+- Analysis of repayment ability (cash flow analysis)
+- Evaluation of management experience and capability
+- Assessment of collateral
+- Review of equity contribution
+- Verification of eligibility
+- Analysis of the borrower's credit history
+
+The credit analysis must support a reasonable assurance of repayment. Lenders must document their analysis and maintain complete loan files.
+
+Loan Closing:
+Lenders are responsible for:
+- Preparing all loan documents
+- Verifying all conditions of approval are met
+- Obtaining required insurance
+- Perfecting security interests (filing UCC liens, recording mortgages)
+- Disbursing loan proceeds
+- Submitting settlement documents to the SBA
+
+Loan Servicing:
+Lenders must service SBA loans in a commercially reasonable manner, including:
+- Collecting payments
+- Monitoring financial performance
+- Processing payment deferrals or modifications
+- Identifying and addressing early warning signs of default
+- Reporting loan status to the SBA via the E-Tran system
+
+Liquidation:
+When a loan defaults, the lender must:
+- Attempt workout solutions before proceeding to liquidation
+- Liquidate collateral in a commercially reasonable manner
+- Pursue personal guarantees
+- Submit a loss claim to the SBA for the guaranteed portion
+- Document all liquidation activities
+
+COMPLIANCE AND OVERSIGHT
+
+SBA Audits and Reviews:
+The SBA conducts regular audits and reviews of lender performance, including:
+- On-site reviews of loan files
+- Portfolio performance analysis
+- Compliance with SBA Standard Operating Procedures
+- Verification of proper use of delegated authority
+
+Performance Metrics:
+The SBA monitors lender performance using several key metrics:
+- Purchase rate (percentage of loans purchased by SBA due to default)
+- Default rate compared to SBA portfolio average
+- Timeliness of reporting and documentation
+- Compliance findings from reviews
+
+Consequences of Non-Compliance:
+Lenders that fail to comply with SBA requirements may face:
+- Repair orders requiring corrective action
+- Probation or suspension of lending authority
+- Reduction in delegation level (e.g., PLP to CLP)
+- Revocation of SBA lending authority
+- Denial of guaranty purchase (lender bears the loss)
+- Referral to the SBA Office of Inspector General
+
+LOAN DOCUMENTATION REQUIREMENTS
+
+Required Loan File Documents:
+- SBA Form 1919 (Borrower Information Form) for each principal
+- Personal financial statements
+- Business financial statements (3 years tax returns minimum)
+- Business plan (for startups or significant changes)
+- IRS Tax Transcripts (Form 4506-C authorization)
+- SBA Form 912 (Statement of Personal History) for each principal
+- Credit reports for all principals and the business
+- Appraisals (for real estate collateral)
+- Environmental reviews (for real estate transactions)
+- Evidence of insurance
+- Franchise agreements (if applicable)
+- Buy-sell agreements (if applicable)
+
+SPECIAL CONSIDERATIONS
+
+Franchise Loans:
+Lenders making loans to franchise businesses must verify that the franchise is listed on the SBA Franchise Directory. The franchise agreement must not contain provisions that conflict with SBA requirements. The SBA reviews franchise agreements to ensure franchisees maintain adequate control of their business.
+
+Change of Ownership:
+When a borrower with an existing SBA loan undergoes a change of ownership, the lender must obtain SBA approval (or make the decision under delegated authority). The new owner(s) must meet SBA eligibility requirements and the loan must remain adequately secured.
+
+Loan Modifications:
+Lenders may approve certain loan modifications without SBA approval, depending on their delegation level. Common modifications include:
+- Payment deferrals (up to 6 months)
+- Maturity extensions (within SBA maximum terms)
+- Collateral substitution
+- Release of collateral
+- Assumption by a new borrower
+
+Major modifications (such as principal reduction or significant term changes) require SBA approval regardless of lender delegation level.
+
+REPORTING REQUIREMENTS
+
+Lenders must report to the SBA through the E-Tran system:
+- Loan origination data (at closing)
+- Monthly payment status
+- Annual financial reviews (for loans over $350,000)
+- Default notifications (within 60 days of uncured default)
+- Liquidation status updates
+- Loss claims and recovery reports
+
+Accurate and timely reporting is essential for maintaining SBA lending authority and is a key factor in lender performance evaluations.
+
+ETHICAL STANDARDS
+
+SBA lenders must maintain high ethical standards, including:
+- No conflicts of interest in loan transactions
+- Fair and equal treatment of all applicants
+- Compliance with fair lending laws (Equal Credit Opportunity Act, Fair Housing Act)
+- Transparency in fees and charges
+- Protection of borrower information
+- Prohibition on referral fees or kickbacks

@@ -1,0 +1,119 @@
+SBA 7(a) LOAN PROGRAM — FREQUENTLY ASKED QUESTIONS FOR BORROWERS
+Source: U.S. Small Business Administration — Public FAQ Guide
+
+GENERAL QUESTIONS
+
+Q: What is an SBA 7(a) loan?
+A: An SBA 7(a) loan is a loan provided by SBA-approved lenders (usually banks and credit unions) that is partially guaranteed by the Small Business Administration. The SBA does not lend money directly to borrowers — instead, it sets guidelines and guarantees a portion of the loan, reducing risk for lenders and making it easier for small businesses to obtain financing.
+
+Q: How is an SBA 7(a) loan different from a conventional bank loan?
+A: SBA 7(a) loans differ from conventional loans in several ways:
+- The SBA guarantees a portion of the loan (up to 85%), reducing lender risk
+- Interest rates are capped by SBA regulations
+- Longer repayment terms are generally available (up to 25 years for real estate)
+- Down payment requirements may be lower
+- The SBA requires that borrowers cannot obtain credit elsewhere on reasonable terms
+- SBA loans have specific eligibility requirements and restrictions on use of proceeds
+
+Q: Who qualifies for an SBA 7(a) loan?
+A: To qualify, you must operate a for-profit small business in the United States, meet SBA size standards for your industry, demonstrate the ability to repay the loan, have a sound business purpose, and show that you cannot obtain credit elsewhere on reasonable terms. You must also not be delinquent on any federal debt.
+
+Q: What is the maximum SBA 7(a) loan amount?
+A: The maximum loan amount for a standard SBA 7(a) loan is $5,000,000. Some sub-programs have lower maximums: SBA Express loans max out at $500,000, and Community Advantage loans at $350,000.
+
+Q: What can I use an SBA 7(a) loan for?
+A: You can use the proceeds for working capital, equipment purchases, real estate acquisition or renovation, debt refinancing, inventory, starting a new business, or acquiring an existing business. You cannot use the funds for speculative investments, floor plan financing, or paying delinquent taxes.
+
+APPLYING FOR A LOAN
+
+Q: How do I apply for an SBA 7(a) loan?
+A: You apply through an SBA-approved lender, not through the SBA directly. Steps include:
+1. Prepare your business plan and financial documents
+2. Find an SBA-approved lender (use the SBA Lender Match tool at sba.gov)
+3. Submit your application with required documentation
+4. The lender evaluates your application and may submit it to the SBA for approval
+5. Upon approval, the loan is closed and funds are disbursed
+
+Q: What documents do I need to apply?
+A: Typical documentation includes:
+- SBA Form 1919 (Borrower Information Form)
+- Personal financial statements of all owners with 20%+ ownership
+- Business financial statements (3 years of tax returns, current profit & loss, balance sheet)
+- Business plan (for startups or significant expansions)
+- Schedule of business debt
+- Resumes for each principal
+- Business licenses and permits
+- Lease agreements (if applicable)
+- Articles of incorporation or organization
+
+Q: How long does the SBA loan process take?
+A: The timeline varies depending on the lender and complexity of the loan:
+- SBA Express loans: Can be approved in as little as 36 hours
+- Standard 7(a) loans through Preferred Lenders (PLP): 5-10 business days for SBA turnaround
+- Standard 7(a) loans through regular lenders: 2-3 weeks for SBA review
+- Total process from application to funding: typically 30-90 days
+
+Q: What credit score do I need for an SBA 7(a) loan?
+A: The SBA does not set a minimum credit score requirement. However, most lenders prefer a personal credit score of 680 or higher. Some lenders may work with lower credit scores if other aspects of the application are strong. The SBA uses its own credit scoring model (FICO SBSS) as a pre-screening tool, with a minimum score of 155 out of 300.
+
+INTEREST RATES AND FEES
+
+Q: What interest rate will I pay?
+A: Interest rates are negotiated between you and the lender but are subject to SBA maximums. Rates are typically based on the prime rate plus a spread that varies by loan size. For loans over $350,000, the maximum rate is prime plus 3%. For smaller loans, the maximum spread can be higher (up to prime plus 6.5% for loans under $50,000). Rates can be fixed or variable.
+
+Q: What fees are associated with an SBA 7(a) loan?
+A: The primary fee is the SBA guaranty fee, which ranges from 2% to 3.5% of the guaranteed portion of the loan, depending on the loan amount. There is also an annual service fee of 0.55% paid by the lender. Lenders may also charge reasonable closing costs, but the SBA prohibits certain fees, including bonus points, brokerage fees, and other unreasonable charges.
+
+Q: Are there any fee reductions available?
+A: The SBA periodically offers fee relief programs. Veterans and military spouses may qualify for reduced fees on certain loan types. Check with your lender or the SBA website for current fee reduction programs.
+
+REPAYMENT AND SERVICING
+
+Q: What are the repayment terms?
+A: Repayment terms depend on the use of proceeds:
+- Working capital: Up to 10 years
+- Equipment: Up to 10 years (or useful life of the equipment)
+- Real estate: Up to 25 years
+- Business acquisition: Up to 10 years
+Terms may be blended for mixed-use loans.
+
+Q: Can I prepay my SBA 7(a) loan without penalty?
+A: For loans with a maturity of 15 years or more, there is a prepayment penalty if you voluntarily prepay 25% or more of the outstanding balance within the first three years. The penalty is:
+- During Year 1: 5% of the amount prepaid
+- During Year 2: 3% of the amount prepaid
+- During Year 3: 1% of the amount prepaid
+After Year 3, there is no prepayment penalty. Loans with a maturity of less than 15 years have no prepayment penalty at any time.
+
+Q: What happens if I default on my SBA 7(a) loan?
+A: If you default, the lender will first attempt to work with you on a payment plan or loan modification. If the default cannot be resolved, the lender will liquidate the collateral and pursue the personal guarantees of the principals. The SBA will then purchase the guaranteed portion of the loan from the lender. Defaulting on an SBA loan will negatively impact your credit score and may affect your ability to obtain future government-backed financing.
+
+Q: Can my SBA loan be forgiven?
+A: Standard SBA 7(a) loans are not eligible for forgiveness. They must be repaid in full according to the loan terms. (Note: SBA disaster loans and certain pandemic-era programs like PPP had forgiveness provisions, but these do not apply to standard 7(a) loans.)
+
+SPECIAL PROGRAMS
+
+Q: What is SBA Express?
+A: SBA Express is a streamlined loan program that allows approved lenders to make loans of up to $500,000 using their own credit analysis procedures, with a 36-hour SBA turnaround on applications. The SBA guarantees up to 50% of these loans. Express loans can be term loans or revolving lines of credit.
+
+Q: What is the Community Advantage program?
+A: Community Advantage is a pilot program that allows mission-focused lenders (such as Community Development Financial Institutions, or CDFIs) to make SBA 7(a) loans of up to $350,000, specifically targeting underserved communities and borrowers. These lenders often provide additional technical assistance and support to borrowers.
+
+Q: What is the Export Express program?
+A: Export Express loans provide up to $500,000 to small businesses that need financing to support export activities. The SBA guarantees up to 90% of loans of $350,000 or less and 75% of loans over $350,000. These loans have a fast turnaround similar to SBA Express.
+
+Q: Are there SBA loans specifically for startups?
+A: The SBA 7(a) program does not exclude startups, but obtaining a loan as a startup is more challenging because you won't have historical financial data. Startups typically need a strong business plan, relevant industry experience, good personal credit, and collateral or personal equity contribution. SBA microloans (up to $50,000) through intermediary lenders can also be a good option for startups.
+
+COMMON MISCONCEPTIONS
+
+Q: Does the SBA lend money directly?
+A: No. The SBA sets the rules and guarantees a portion of loans made by approved lenders. You apply through a bank, credit union, or other approved lending institution.
+
+Q: Is an SBA loan a grant?
+A: No. SBA 7(a) loans must be repaid with interest. The SBA does not offer grants for starting or expanding a business. (The SBA does offer some grant programs for specific purposes, such as the SBIR/STTR programs for research and development.)
+
+Q: Can I get an SBA loan with bad credit?
+A: It is difficult but not impossible. The SBA does not set a minimum credit score, but lenders have their own standards. If your personal credit score is below 650, you may have difficulty finding an approved lender willing to make the loan. Consider improving your credit or exploring SBA microloans, which may have more flexible requirements.
+
+Q: Do I need collateral for an SBA loan?
+A: The SBA requires lenders to take available collateral but will not decline a loan solely for lack of collateral. For loans up to $25,000, no collateral is required. For larger loans, the lender must follow standard collateral policies. The SBA's position is that a loan should not be denied when the borrower has good cash flow but limited collateral.
