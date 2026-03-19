@@ -17,6 +17,23 @@ st.set_page_config(
     layout="wide",
 )
 
+# --- Simple Password Gate ---
+APP_PASSWORD = st.secrets.get("APP_PASSWORD", "")
+if APP_PASSWORD:
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.markdown("### Please enter the access code to continue")
+        pwd = st.text_input("Access code", type="password")
+        if pwd:
+            if pwd == APP_PASSWORD:
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Incorrect access code.")
+        st.stop()
+
 # --- Check API Key ---
 api_key = OPENAI_API_KEY or st.secrets.get("OPENAI_API_KEY", "")
 if not api_key:
