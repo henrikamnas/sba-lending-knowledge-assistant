@@ -42,10 +42,10 @@ ENTITY_TYPES = [
 ]
 
 ENTITY_COLORS = {
-    "LoanProgram": "#4A90D9",
-    "Requirement": "#E8943A",
-    "LenderType": "#6BBF6B",
-    "FinancialTerm": "#D94A6B",
-    "Regulation": "#9B59B6",
-    "Amount": "#1ABC9C",
+    "LoanProgram": "#2563EB",
+    "Requirement": "#D97706",
+    "LenderType": "#059669",
+    "FinancialTerm": "#DC2626",
+    "Regulation": "#7C3AED",
+    "Amount": "#0891B2",
 }

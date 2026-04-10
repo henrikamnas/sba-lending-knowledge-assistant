@@ -21,27 +21,28 @@ if not KG_FILE.exists():
     )
     st.stop()
 
+
 # --- Load graph ---
 @st.cache_resource
 def _load_kg():
     return load_graph()
 
+
 G = _load_kg()
 stats = get_graph_stats(G)
 
 if stats["nodes"] == 0:
-    st.error("Knowledge graph is empty. Rebuild with `python build_knowledge_graph.py --force`.")
+    st.error(
+        "Knowledge graph is empty. Rebuild with `python build_knowledge_graph.py --force`."
+    )
     st.stop()
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("Graph Explorer")
     st.markdown(
-        "Explore entities and relationships extracted from SBA 7(a) lending documents "
-        "using an LLM-powered knowledge graph."
+        "Explore entities and relationships extracted from SBA 7(a) lending documents."
     )
 
-    st.divider()
     st.subheader("Graph Stats")
     st.metric("Nodes", stats["nodes"])
     st.metric("Edges", stats["edges"])
@@ -65,17 +66,13 @@ with st.sidebar:
         key="kg_type_filter",
     )
 
-    search_query = st.text_input("Search nodes", key="kg_search", placeholder="e.g., 7(a), collateral...")
-
-    st.divider()
-    st.caption("Built by Henrik Axelsson as an AI/KG demo.")
+    search_query = st.text_input(
+        "Search nodes", key="kg_search", placeholder="e.g., 7(a), collateral..."
+    )
 
 # --- Main Content ---
-st.title("Knowledge Graph Explorer")
-st.markdown(
-    f"Interactive visualization of **{stats['nodes']} entities** and "
-    f"**{stats['edges']} relationships** extracted from SBA lending documents."
-)
+st.header("Knowledge Graph")
+st.markdown(f"{stats['nodes']} entities, {stats['edges']} relationships.")
 
 # --- Legend ---
 legend_cols = st.columns(len(ENTITY_COLORS))
@@ -86,7 +83,6 @@ for col, (etype, color) in zip(legend_cols, ENTITY_COLORS.items()):
     )
 
 # --- Node inspector (above graph so selection drives the visualization) ---
-st.divider()
 st.subheader("Inspect Node")
 
 node_options = sorted(
@@ -124,7 +120,8 @@ elif selected_types != ENTITY_TYPES or search_query:
         display_nodes = expanded
     else:
         display_nodes = {
-            nid for nid, attrs in G.nodes(data=True)
+            nid
+            for nid, attrs in G.nodes(data=True)
             if attrs.get("type") in selected_types
         }
     display_graph = get_subgraph(G, display_nodes)

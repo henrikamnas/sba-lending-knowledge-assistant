@@ -10,6 +10,7 @@ from entity_linker import (
 )
 from knowledge_graph import load_graph
 
+
 # --- Load KG if available ---
 @st.cache_resource
 def _load_kg():
@@ -17,17 +18,14 @@ def _load_kg():
         return load_graph()
     return None
 
+
 graph = _load_kg()
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("Entity Linker")
     st.markdown(
-        "Paste or type any text about SBA lending and this tool will identify "
-        "domain-specific entities, classify them, and link them to the knowledge graph."
+        "Paste text to identify SBA lending entities and link them to the knowledge graph."
     )
-
-    st.divider()
 
     # Legend
     st.subheader("Entity Types")
@@ -38,21 +36,19 @@ with st.sidebar:
         )
 
     st.divider()
-    st.caption("Built by Henrik Axelsson as an AI/NER demo.")
+    st.caption("Henrik Axelsson")
 
 # --- Main Content ---
-st.title("Entity Linker")
-st.markdown(
-    "Identify and link SBA lending entities in free text. "
-    "Entities are highlighted and mapped to official SBA definitions."
-)
+st.header("Entity Linker")
 
 # --- Example buttons ---
-st.markdown("**Try an example:**")
+st.markdown("Examples:")
 example_cols = st.columns(len(EXAMPLE_TEXTS))
 for col, example in zip(example_cols, EXAMPLE_TEXTS):
     with col:
-        if st.button(example["title"], key=f"ex_{example['title']}", use_container_width=True):
+        if st.button(
+            example["title"], key=f"ex_{example['title']}", use_container_width=True
+        ):
             st.session_state["el_text_area"] = example["text"]
             st.rerun()
 
@@ -103,7 +99,7 @@ if "el_entities" in st.session_state and st.session_state.get("el_analyzed_text"
                 with col1:
                     st.markdown(
                         f'<span style="color:{color}; font-size:18px;">&#9679;</span> '
-                        f'**{canonical}**'
+                        f"**{canonical}**"
                         f'&nbsp;&nbsp;<span style="color:#888; font-size:12px;">{entity_type}</span>',
                         unsafe_allow_html=True,
                     )
@@ -114,7 +110,7 @@ if "el_entities" in st.session_state and st.session_state.get("el_analyzed_text"
                 with col2:
                     if kg_node:
                         st.markdown(
-                            '<span style="color:#1ABC9C;">Linked to KG</span>',
+                            '<span style="color:#059669;">Linked to KG</span>',
                             unsafe_allow_html=True,
                         )
                     else:

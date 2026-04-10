@@ -40,7 +40,9 @@ def load_graph() -> nx.DiGraph:
     return G
 
 
-def search_graph(G: nx.DiGraph, query: str, entity_type: str | None = None) -> list[str]:
+def search_graph(
+    G: nx.DiGraph, query: str, entity_type: str | None = None
+) -> list[str]:
     """Find nodes matching a search query by label, with optional type filter."""
     query_lower = query.lower()
     results = []
@@ -88,11 +90,19 @@ def get_node_details(G: nx.DiGraph, node_id: str) -> dict | None:
 
     attrs = G.nodes[node_id]
     outgoing = [
-        {"target": t, "target_label": G.nodes[t].get("label", t), "relation": d.get("relation", "")}
+        {
+            "target": t,
+            "target_label": G.nodes[t].get("label", t),
+            "relation": d.get("relation", ""),
+        }
         for _, t, d in G.out_edges(node_id, data=True)
     ]
     incoming = [
-        {"source": s, "source_label": G.nodes[s].get("label", s), "relation": d.get("relation", "")}
+        {
+            "source": s,
+            "source_label": G.nodes[s].get("label", s),
+            "relation": d.get("relation", ""),
+        }
         for s, _, d in G.in_edges(node_id, data=True)
     ]
 
@@ -107,7 +117,9 @@ def get_node_details(G: nx.DiGraph, node_id: str) -> dict | None:
     }
 
 
-def build_pyvis_html(G: nx.DiGraph, height: str = "600px", selected_node: str | None = None) -> str:
+def build_pyvis_html(
+    G: nx.DiGraph, height: str = "600px", selected_node: str | None = None
+) -> str:
     """Build an interactive pyvis HTML visualization of the graph."""
     from pyvis.network import Network
 
@@ -115,8 +127,8 @@ def build_pyvis_html(G: nx.DiGraph, height: str = "600px", selected_node: str | 
         height=height,
         width="100%",
         directed=True,
-        bgcolor="#0E1117",
-        font_color="white",
+        bgcolor="#F0F4F8",
+        font_color="#1A1A2E",
         select_menu=False,
         filter_menu=False,
     )
@@ -146,7 +158,7 @@ def build_pyvis_html(G: nx.DiGraph, height: str = "600px", selected_node: str | 
             size=size,
             title=title,
             borderWidth=border_width,
-            font={"size": 12, "color": "white"},
+            font={"size": 12, "color": "#1A1A2E"},
         )
 
     for source, target, attrs in G.edges(data=True):
@@ -156,8 +168,8 @@ def build_pyvis_html(G: nx.DiGraph, height: str = "600px", selected_node: str | 
             target,
             title=relation,
             label=relation,
-            color="#555555",
-            font={"size": 8, "color": "#999999", "align": "middle"},
+            color="#999999",
+            font={"size": 8, "color": "#666666", "align": "middle"},
             arrows="to",
         )
 

@@ -8,17 +8,9 @@ from llm import generate_response_stream
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("About")
-    st.markdown(
-        "This assistant answers questions about **SBA 7(a) loan regulations** "
-        "using Retrieval-Augmented Generation (RAG). All answers are grounded "
-        "in official SBA program documents with source citations."
-    )
-
-    st.divider()
+    st.markdown("Answers are sourced from official SBA 7(a) program documents.")
 
     # Collection stats
-    st.subheader("Knowledge Base")
     stats = get_collection_stats()
 
     if stats["status"] == "ready":
@@ -30,27 +22,15 @@ with st.sidebar:
     else:
         st.warning("No documents indexed. Run `python ingest.py` first.")
 
-    st.divider()
-
-    # Architecture info
-    st.subheader("Architecture")
-    st.markdown(f"""
-    - **LLM:** `{LLM_MODEL}`
-    - **Embeddings:** `{EMBEDDING_MODEL}`
-    - **Vector DB:** ChromaDB
-    - **Top-K:** {TOP_K} chunks
-    - **Search:** Cosine similarity + keyword boost
-    """)
-
-    st.divider()
-    st.caption("Built by Henrik Axelsson as a RAG architecture demo.")
+    with st.expander("Technical details"):
+        st.markdown(f"""
+        - LLM: `{LLM_MODEL}`
+        - Embeddings: `{EMBEDDING_MODEL}`
+        - Retrieval: top-{TOP_K} chunks, cosine similarity
+        """)
 
 # --- Main Content ---
-st.title("Q&A Assistant")
-st.markdown(
-    "Ask questions about SBA 7(a) loan programs, eligibility requirements, "
-    "loan terms, and lender guidelines. Answers are sourced from official SBA documents."
-)
+st.header("Q&A Assistant")
 
 # --- Demo Questions ---
 DEMO_QUESTIONS = [
@@ -68,7 +48,7 @@ if "messages" not in st.session_state:
 
 # --- Show demo questions when chat is empty ---
 if not st.session_state.messages:
-    st.markdown("**Try one of these questions to get started:**")
+    st.markdown("Example questions:")
     cols = st.columns(2)
     for i, q in enumerate(DEMO_QUESTIONS):
         with cols[i % 2]:
@@ -86,7 +66,6 @@ for message in st.session_state.messages:
                     score_pct = f"{src['score']:.0%}"
                     st.markdown(f"**{src['citation']}** (relevance: {score_pct})")
                     st.markdown(f"> {src['text'][:300]}...")
-                    st.divider()
 
 # --- Chat Input ---
 _pending = st.session_state.pop("_pending_question", None)
@@ -120,12 +99,13 @@ if question := (_pending or st.chat_input("Ask about SBA 7(a) lending...")):
                     score_pct = f"{result.relevance_score:.0%}"
                     st.markdown(f"**{result.citation}** (relevance: {score_pct})")
                     st.markdown(f"> {result.text[:300]}...")
-                    st.divider()
-                    source_data.append({
-                        "citation": result.citation,
-                        "score": result.relevance_score,
-                        "text": result.text,
-                    })
+                    source_data.append(
+                        {
+                            "citation": result.citation,
+                            "score": result.relevance_score,
+                            "text": result.text,
+                        }
+                    )
 
     msg = {"role": "assistant", "content": response_text}
     if results:
